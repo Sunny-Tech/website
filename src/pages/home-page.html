@@ -17,7 +17,6 @@
 {% if gallery %}
   <link rel="import" href="../elements/photo-block.html">
 {% endif %}
-<link rel="import" href="../elements/tickets-block.html">
 <link rel="import" href="../elements/latest-posts.html">
 <link rel="import" href="../elements/footer-block.html">
 <link rel="import" href="../elements/social-feed.html">
@@ -41,9 +40,8 @@
     {% if callToSchedule %}
     <call-to-schedule app="{{app}}"></call-to-schedule>
     {% endif %}
-    <tickets-block app="{{app}}" cascaded></tickets-block>
     {% if gallery %}
-      <photo-block app="{{app}}"></photo-block>
+    <photo-block app="{{app}}"></photo-block>
     {% endif %}
     <logos-block app="{{app}}" cascaded></logos-block>
     <map-block app="{{app}}" selected="{{selected}}"></map-block>
