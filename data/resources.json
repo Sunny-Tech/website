@@ -25,7 +25,7 @@
   "socialTitle": "Social",
   "socialMotto": "Add to circles, like, follow or connect with us on",
   "beforeHashtag": "What's up",
-  "clickToViewPhotos": "Click here to view more photos",
+  "clickToViewPhotos": "Click here to view last edition photos",
   "partners": "Sponsors de l'année 2018",
   "partnershipProposition": "mailto:contact@sunny-tech.io",
   "becomePartner": "Devenir partenaire",
@@ -141,7 +141,7 @@
     "callToSchedule": {
       "display": true,
       "title" :"2 jours de conférences", 
-      "description": "Avec 11 ateliers, 12 conférences courtes, 26 conférences longues, 2 keynotes, 6 catégories, 4 tracks", 
+      "description": "Avec 11 ateliers, 12 conférences courtes, 26 conférences longues, 2 keynotes, 6 catégories, 5 tracks", 
       "action": "Accéder au Programme",
       "url": "/schedule/",
       "categories": [
