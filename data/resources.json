@@ -13,6 +13,7 @@
   "eventResources": "Event Resources",
   "buyTicket": "Achetez un billet",
   "buyTicketTopRight": "Billeterie",
+  "becomeSponsorMenu": "Devenir sponsor",
   "signIn": "Connexion",
   "signOut": "Déconnexion",
   "viewHighlights": "Moments forts 2018",
@@ -121,7 +122,7 @@
     "title": "Sponsorisez l'événement!",
     "buttonSponsoring": "Devenir un sponsor",
     "callToAction": {
-      "label": "Voir le dossier de sponsoring",
+      "label": "Dossier de sponsoring",
       "link": "https://docs.google.com/presentation/d/1TpKT5fHgiTXH3MzTZJN1kaUM7IbQ6mFfKynu1RA-Kz8/preview#slide=id.p1"
     },
     "form": {

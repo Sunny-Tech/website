@@ -16,10 +16,6 @@
         display: block;
       }
 
-      .sponsoring-link {
-        font-size: 15px;
-      }
-
       .second-button {
         margin-top: 5px;
       }
@@ -115,12 +111,12 @@
         </div>
         <div layout vertical center-center>
             <a href="{$ becomeSponsorGalleryBlock.callToAction.link $}" target="_blank" rel="noopener noreferrer">
-              <paper-button class="sponsoring-link animated icon-right">
+              <paper-button class="animated icon-right">
                 <span>{$ becomeSponsorGalleryBlock.callToAction.label $}</span>
                 <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
               </paper-button>
             </a>
-          <paper-button class="sponsoring-link second-button animated icon-right"
+          <paper-button class="second-button animated icon-right"
             on-tap="_addPotentialPartner">
             <span>{$ becomeSponsorGalleryBlock.buttonSponsoring $}</span>
             <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
@@ -157,6 +153,9 @@
 
       connectedCallback() {
         super.connectedCallback();
+
+        // eslint-disable-next-line no-undef
+        HOVERBOARD.Elements.BecomeSponsorGallery = this;
 
         if (!this.becomeSponsorGallery || !this.becomeSponsorGallery.length) {
           this.dispatch(becomeSponsorGalleryActions.fetchGallery());
