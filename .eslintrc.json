@@ -45,6 +45,7 @@
     "sessionsActions": true,
     "scheduleActions": true,
     "galleryActions": true,
+    "becomeSponsorGalleryActions": true,
     "teamActions": true,
     "userActions": true,
     "subscribeActions": true,
