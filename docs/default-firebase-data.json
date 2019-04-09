@@ -1700,6 +1700,7 @@
       "country": "Rouen, France",
       "name": "Audrey Neveu",
       "photoUrl": "https://lh5.googleusercontent.com/-SECie61I7cQ/AAAAAAAAAAI/AAAAAAAAHPU/rjsXo4n512I/photo.jpg",
+      "shortBio": "Développeuse full-stack",
       "socials": [{
         "link": "Audrey_Neveu",
         "icon": "twitter",
@@ -1709,9 +1710,11 @@
     "NQLD49SQ4gUOxdIJzFiOtAqwMvK2": {
       "bio": "Directeur d’études/ UX Researcher. 18 années d’expérience dans les études marketing et les tests utilisateurs d’interfaces numériques (évaluation du parcours de navigation, du contenu, de l’ergonomie, des fonctionnalités, compréhension de l’offre, évaluation de l'UX de manière globale, hors interface…). \nCo-fondateur de l’institut d’étude Personae User Lab en 2012 (aujourd’hui le lab de l’agence Intuiti). Ex-directeur d’étude OpinionWay/LH2/TMO Régions. \nCréateur du baromètre Smartphone Street Observer (observation et analyse du comportement lié au smartphone in situ). \nPrésident de l’association Flupa (et organisateur de meetup UX depuis 2014 à Nantes). \nEnseignant et intervenant dans différentes écoles (Paris 2 Assas, ECV Digital Nantes, Digital Campus Rennes, Audencia, Wis school, IAE Nantes) et conférences. \nDiplômé d’un master de Sémiologie et d’un master Communication et multimédia/chef de projet web",
       "company": "Intuiti",
+      "companyLogoUrl": "/images/logos/Intuiti.png",
       "country": "Nantes",
       "name": "Nabil THALMANN",
-      "photoUrl": "https://pbs.twimg.com/profile_images/457216915451432960/iLEyzYRb_normal.jpeg",
+      "photoUrl": "https://pbs.twimg.com/profile_images/457216915451432960/iLEyzYRb_400x400.jpeg",
+      "shortBio": "Directeur d’études/ UX Researcher à Intuiti",
       "socials": [{
         "link": "@nabilthalmann",
         "icon": "twitter",
@@ -1721,9 +1724,11 @@
     "8zOOs7IFvcaR2eld6O0svwq5tRS2": {
       "bio": "Coach et formateur Agile, j'accompagne les équipes et les organisations dans leur transformation Agile afin de favoriser la production de valeur, l'auto-organisation, la cohésion d'équipe et le time to market.",
       "company": "SmartView",
+      "companyLogoUrl": "/images/logos/Logo-smartview-noir-800.png",
       "country": "Montpellier, France",
       "name": "Yassine Zakaria",
       "photoUrl": "https://lh4.googleusercontent.com/--5nw4ChZ0fs/AAAAAAAAAAI/AAAAAAAAANc/Is9OZoes8Ew/photo.jpg",
+      "shortBio": "Consultant associé SmartView - Coach Agile : Formation & accompagnement à la transformation Agile.",
       "socials": [{
         "link": "@yassinezakaria",
         "icon": "twitter",
@@ -1735,7 +1740,8 @@
       "company": null,
       "country": "Montpellier, France",
       "name": "Julie Artis",
-      "photoUrl": "https://pbs.twimg.com/profile_images/988093465568432129/-2Sl9a_J_normal.jpg",
+      "photoUrl": "https://pbs.twimg.com/profile_images/988093465568432129/-2Sl9a_J_400x400.jpg",
+      "shortBio": "Consultante bien-être au travail par passion | Chief Happiness Officer engagée",
       "socials": [{
         "link": "@julieartis",
         "icon": "twitter",
@@ -1745,17 +1751,21 @@
     "vz8s7Z7mu5e7vH6oOAXvWfdGltm1": {
       "bio": "Eduardo is in charge of the development of new software modules for big data analysis since 2018 at Qualtera. Since 2007, he contributed to software projects related to knowledge management, technical data analysis (oil/gas and semiconductor industries) and economic analysis. His primary areas of interest are Knowledge Management and Software Engineering.\n\nLinkedIn: https://www.linkedin.com/in/eduardoestima/ ",
       "company": "Qualtera",
+      "companyLogoUrl": "/images/logos/Qualteralogo.png",
       "country": "Montpellier, France",
       "name": "Eduardo Studzinski Estima de Castro",
       "photoUrl": "https://lh3.googleusercontent.com/-xXr6FZ07fgE/AAAAAAAAAAI/AAAAAAAArlk/m90_chJ74Gk/photo.jpg",
+      "shortBio": "Développeur software à Qualtera",
       "socials": []
     },
     "DNlgKL7C5DNK0y48Lf7ylPB4bmk2": {
       "bio": "Developer Relation Manager at Microsoft and Google Developer Expert in Web Technologies. I love to share knowledge (and love) among developers and people in general.",
       "company": "Microsoft",
+      "companyLogoUrl": "/images/logos/logo-microsoft.png",
       "country": "Paris, France",
       "name": "Olivier Leplus",
       "photoUrl": "https://lh4.googleusercontent.com/-lZ1NmzauJJc/AAAAAAAAAAI/AAAAAAAAgeg/Jaiqf1L_EPM/photo.jpg",
+      "shortBio": "Développeur Relations @Microsoft - Google Developer Expert",
       "socials": [{
           "link": "tagazok",
           "icon": "github",
@@ -1771,9 +1781,11 @@
     "s7ZsfYPdrDMVvmjtSGHyxa01ir63": {
       "bio": "Passionné d'android,\nmembre très actif sur github, je possède plusieurs, voire plein de librairies Android :)\n\nFondateur du slack Android-Dev-FR\n\nJ'aime les communautés android, écrire des articles,  créer des libs",
       "company": "Idean",
+      "companyLogoUrl": "/images/logos/idean-logo-555x308.png",
       "country": "Montpellier, France",
       "name": "Florent Champigny",
       "photoUrl": "https://lh5.googleusercontent.com/-3XzSqSjRjtY/AAAAAAAAAAI/AAAAAAAAVjo/cjRtRZQCvNU/photo.jpg",
+      "shortBio":"Développeur Android à Idean",
       "socials": [{
           "link": "https://github.com/florent37/",
           "icon": "github",
@@ -1787,19 +1799,28 @@
       ]
     },
     "x0K8lynbiudPDN33GBLvvs4HkCv1": {
-      "bio": "",
+      "bio": "Network Programmer à Ubisoft",
       "company": "Ubisoft",
-      "country": "France",
-      "name": "Ilod",
+      "companyLogoUrl": "/images/logos/6810_ubisoft-prev-500x500.png",
+      "country": "Montpellier, France",
+      "name": "Rudy Pons",
       "photoUrl": "https://avatars3.githubusercontent.com/u/306744?v=4",
-      "socials": []
+      "shortBio": "Network Programmer à Ubisoft ",
+      "socials": [
+        {
+          "link": "@ilodenarp",
+          "icon": "twitter",
+          "name": "Twitter"
+        }]
     },
     "0B4WN6hn3kghsIqMicYjfa5Wt7k2": {
       "bio": "Développeur, DevOps, Lead Dev, IntelliJ fanboy, … autant de termes me définissant, mais avant tout une personne qui aime créer par le code mais qui doute (ne dit-on pas ”tester c’est douter” ? ). Java, Kotlin ... mais principalement tout ce qui touche au backend ... (la magie noire du CSS pour moi, non merci ... )",
       "company": "Saagie",
+      "companyLogoUrl": "/images/logos/saagie.png",
       "country": "Rouen",
       "name": "Pierre LERESTEUX",
       "photoUrl": "https://lh3.googleusercontent.com/-j3Ueavrt96M/AAAAAAAAAAI/AAAAAAAAR_I/V9bOf2Cnozg/photo.jpg",
+      "shortBio": "Dev/Agile/Ops à Saagie",
       "socials": [{
         "link": "@pierreLeresteux",
         "icon": "twitter",
@@ -1809,9 +1830,11 @@
     "vAQguQPbehbyRxkDuXzJ9HSHqVS2": {
       "bio": "I am currently Director of Engineering - Infrastructure at teads.tv and have been in the industry for about 13 years.  \n\nPreviously, I was leading the cloud team at Softbank Robotics, making sure those humanoid robots were always connected.  \n\nMy main focus for those 13 years has been building dev and infra teams, leading them to scale the business in a very automated way.  \n\nI am a natural born geek with an entrepreneur spirit and love to discuss around anything tech related, management related or neat cultural differences.   \nI have lived in many countries / part of the world and love to meet new people from all around the globe.  \n",
       "company": "Teads",
+      "companyLogoUrl": "/images/logos/3.svg",
       "country": "Montpellier, France",
       "name": "Damien Pacaud",
       "photoUrl": "https://avatars1.githubusercontent.com/u/478729?v=4",
+      "shortBio": "Director of Engineering at Teads",
       "socials": [{
           "link": "dpacaud",
           "icon": "github",
@@ -1827,9 +1850,11 @@
     "qOI4EskiBthWo2hEfgaP9yDgHQD2": {
       "bio": "Technical Leader à la Société générale, avec plus de 10 d'expériences, je m’intéresse aux Software Craftsmanship, Devops et tout ce qui se termine par DD.",
       "company": "SOCIETE GENERALE",
+      "companyLogoUrl": "/images/logos/societegeneral.png",
       "country": "PARIS",
-      "name": "nkefi",
+      "name": "Nizar KEFI",
       "photoUrl": "https://pbs.twimg.com/profile_images/378800000693584620/67a791df046ab89c92eb27989cb342a6_normal.jpeg",
+      "shortBio": "Technical leader à la Société générale",
       "socials": [{
           "link": "6kV",
           "icon": "github",
@@ -1845,9 +1870,11 @@
     "9gElbcbH86Q8VUKzNThIWkQ0Wih2": {
       "bio": "Couteau suisse #OSSbyMAIF",
       "company": "MAIF",
+      "companyLogoUrl":"/images/logos/logo-maif.png",
       "country": "NIORT",
       "name": "Francois Desmier",
       "photoUrl": "https://avatars1.githubusercontent.com/u/16403287?v=4",
+      "shortBio": "Architectures et initiatives numériques à MAIF",
       "socials": [{
           "link": "desmfr",
           "icon": "github",
@@ -1862,10 +1889,12 @@
     },
     "EP7LDG2i6YgiNs027aplFVhEbv12": {
       "bio": "Développeur à Clever Cloud.",
-      "company": "Clever Cloud ",
+      "company": "Clever Cloud",
+      "companyLogoUrl": "images/logos/clever-cloud.png",
       "country": "Toulouse, France",
       "name": "Alessio Coltellacci",
       "photoUrl": "https://avatars3.githubusercontent.com/u/11367839?v=4",
+      "shortBio": "Développeur à Clever Cloud",
       "socials": [{
           "link": "@NotBad4U",
           "icon": "github",
@@ -1881,9 +1910,11 @@
     "QvPhV9AlPdQrqshYOjfAGmVhRXb2": {
       "bio": "Canadienne passionnée par le comportement humain dans le milieu des technologies, Marie-Pier a étudié les sciences de la communication à l'Université de Montréal. Aujourd'hui UX Designer chez Genapi, elle se spécialise principalement sur les méthodologies de recherche ethnographique et la facilitation de groupe. Organisatrice de meetups FLUPA, elle a animés de nombreux ateliers UX sur Montpellier depuis maintenant 2 ans. Sa mission aujourd'hui? Trouver des méthodes pour faciliter la communication de groupe dans les équipes d'innovation afin de développer des produits numériques centrés utilisateurs de haute qualité.\n",
       "company": "Genapi",
+      "companyLogoUrl": "/images/logos/Logo_GB_original.png",
       "country": "Montpellier, France",
       "name": "Marie-Pier Pipon-Lavoie",
-      "photoUrl": "https://lh4.googleusercontent.com/-JXWd8jzKdME/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQMl0KDOA826SNZ99xh36rzBDbrJ4w/mo/photo.jpg",
+      "photoUrl": "https://media.licdn.com/dms/image/C5103AQHEIfn-TEhPYA/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=-CAsDHkEAWP1IOGSKWvGYiZtEMWffRXmukE03bdS9X8",
+      "shortBio": "Ergonome/Designer UX à GenApi",
       "socials": []
     },
     "YrDZlRcxXmR5VitDMLjf2H31bA43": {
@@ -1892,6 +1923,7 @@
       "country": "Montpellier, France",
       "name": "Aurelie Le Guillou",
       "photoUrl": "https://lh3.googleusercontent.com/-jPLU9RTzpp0/AAAAAAAAAAI/AAAAAAAAHSA/U10mGuZyknY/photo.jpg",
+      "shortBio": "Coach agile et formatrice Scrum à Turn-on.fr",
       "socials": [{
         "link": "@adcoate",
         "icon": "twitter",
@@ -1901,9 +1933,11 @@
     "MKkYzwlXx6dLM9cfE5vXYqJo5d43": {
       "bio": "Aurélie est Cloud developer (& DevOps) chez Continental à Toulouse, en France. Elle travaille comme développeuse depuis plus de 10 ans. Ancienne développeuse Java / JEE, puis développeuse Web, Full-Stack et Lead, elle est maintenant Cloud developer et DevOps sur des projets de véhicules connectés et autonomes. En tant que l’une des leaders de Duchesse France, une association qui promeut les femmes développeurs et les femmes travaillant dans l'informatique, elle est fortement impliquée dans leur initiative de coaching #AdoptADuchess, qui aide les développeurs débutants et en reconversion. Elle est également l’une des organisatrices du DevFest Toulouse et un membre de la core team du Toulouse Data Science (TDS).\nElle est également rédactrice d'articles techniques et marraine de l’association Elles Bougent.",
       "company": "Continental",
+      "companyLogoUrl": "/images/logos/continental.png",
       "country": "Toulouse, France",
       "name": "Aurélie Vache",
-      "photoUrl": "https://pbs.twimg.com/profile_images/726148230224949249/g2T2qehD_normal.jpg",
+      "photoUrl": "https://pbs.twimg.com/profile_images/726148230224949249/g2T2qehD_400x400.jpg",
+      "shortBio": "Cloud Dev(Ops) à Continental",
       "socials": [{
           "link": "scraly",
           "icon": "github",
@@ -1919,9 +1953,11 @@
     "pYuiGicpt0MenD8NEMhZXtk6VSr1": {
       "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a plus d'une quinzaine d'années. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert le développement web en 1997 et depuis il n'a pas arrêté de bosser autour.\n\nAprès quelques années comme tech leader de la partie frontend de [@warp10io](https://twitter.com/warp10io/) chez [Cityzen Data](https://twitter.com/cityendata/), Horacio a rejoint [OVH](](https://twitter.com/ovh/) en janvier 2018 en tant que Developer Advocate. Il est cofondateur du [FinistDevs](https://twitter.com/finistdevs/), le JUG/GDG français le plus proche de la Silicon Valley.\n\nPassionné par le développement web et tout ce qui gravite autour des composants web, Horacio est [Google Developer Expert (GDE)](https://developers.google.com/experts/people/horacio-gonzalez) en Web Technologies et Flutter.\n\nVous pouvez voir mes dernières talks sur [mon profil Notist](https://noti.st/lostinbrittany)",
       "company": "OVH",
+      "companyLogoUrl": "/images/logos/ovh.png",
       "country": "Brest, France",
       "name": "Horacio Gonzalez (LostInBrittany)",
       "photoUrl": "https://lh4.googleusercontent.com/-6krIgoWnkGk/AAAAAAAAAAI/AAAAAAABR4o/EJH0Fh-m16k/photo.jpg",
+      "shortBio": "DevRel à OVH",
       "socials": [{
           "link": "https://github.com/LostInBrittany",
           "icon": "github",
@@ -1937,9 +1973,11 @@
     "9IyJKz9JQpRk2JPllAQ0kMA3yYV2": {
       "bio": "Je suis Data Engineer chez Margo Bank. \nJ'aime beaucoup la programmation fonctionnelle statiquement typé et le web en règle général. \nJe m'occupe du Meetup \"LilleFP\", un meetup dédié à la programmation fonctionnelle à Lille.",
       "company": "Margo Bank",
+      "companyLogoUrl": "/images/logos/margo-bank.png",
       "country": "Lille, France",
       "name": "Xavier Van de Woestyne",
       "photoUrl": "https://avatars2.githubusercontent.com/u/5732466?v=4",
+      "shortBio": "Data Engineer à Margo Bank",
       "socials": [{
           "link": "xvw",
           "icon": "github",
@@ -1955,9 +1993,11 @@
     "rXHuMGTpijYG82yClvFtjmb4CwV2": {
       "bio": "- Master de microtechnique ( option robotique, machine learning ) EPFL\n- Candidat doctorant, puis ingénieur de recherche au [LASA - EPFL](http://lasa.epfl.ch/)  ( un labo qui fait du machine learning pour la robotique )\n- Schlumberger  Montpellier - data scientist de 2011 - 2016\n- [Netheos]( http://www.netheos.com ) - data scientist 2016 - ajourd'hui\n\n\n## talks : \n- pandas à sunny-tech 2018 (quickie) [lien](]https://github.com/flo-dhalluin/python-pandas-talk/blob/master/pandas-talk-run.ipynb)\n- live-coding clojure au meetup fp de Montpellier [lien](https://github.com/flo-dhalluin/python-pandas-talk/blob/master/pandas-talk-run.ipynb)\n\n",
       "company": "Netheos",
+      "companyLogoUrl": "/images/logos/NETHEOS-logo.png",
       "country": "Montpellier",
       "name": "Florent D'halluin",
       "photoUrl": "https://avatars1.githubusercontent.com/u/496379?v=4",
+      "shortBio": "Data Scientist à Netheos",
       "socials": [{
           "link": "flo-dhalluin",
           "icon": "github",
@@ -1973,9 +2013,11 @@
     "UReg1U2dk9XFlCrkxjN6JWVCoB92": {
       "bio": "Adrien est Tech & DataOps Evangelist chez Saagie, une startup qui propose une plateforme accélérant et industrialisant les projets data & AI. Avant cela, Adrien était Thought Leader chez Société Générale, en charge de l’adoption des pratiques et technos émergentes ; il y a aussi été en charge du déploiement des pratiques DevOps (infra-as-code, feature teams…) et des technos associées (delivery pipelines, Docker…). Par le passé, il a aussi  été consultant chez Octo Technologies, intervenant sur des projets de transformation des infra et participant à l’élaboration de l’offre devops de l’entreprise. Enfin, Adrien est très impliqué dans l'écosystème technologique, étant Docker Captain auprès de Docker Inc., ainsi que manager des communautés Meetup Docker, Kubernetes et Serverless Architecture de Paris.\n",
       "company": "Saagie",
+      "companyLogoUrl": "/images/logos/saagie.png",
       "country": "Rueil-Malmaison, France",
       "name": "Adrien Blind",
       "photoUrl": "https://lh3.googleusercontent.com/-s22-iji08Cc/AAAAAAAAAAI/AAAAAAAAAAA/L-fgk2Yky6o/photo.jpg",
+      "shortBio": "Tech & DataOps Evangelist à Saagie",
       "socials": [{
         "link": "@adrienblind",
         "icon": "twitter",
@@ -1983,11 +2025,13 @@
       }]
     },
     "9g2TJuw97VMd8Zwn9y2x0g0w7SB2": {
-      "bio": "",
+      "bio": "Dev scala / java / javascript à MAIF",
       "company": "MAIF",
+      "companyLogoUrl": "/images/logos/logo-maif.png",
       "country": "Niort, France",
-      "name": "Delegue Alexandre",
+      "name": "Alexandre Delègue",
       "photoUrl": "https://avatars2.githubusercontent.com/u/1575521?v=4",
+      "shortBio": "Dev scala / java / javascript à MAIF",
       "socials": [{
           "link": "larousso",
           "icon": "github",
@@ -2005,7 +2049,8 @@
       "company": null,
       "country": "Toulouse",
       "name": "Fabien Trégan",
-      "photoUrl": "https://pbs.twimg.com/profile_images/981531162790285313/6ZcVrehB_normal.jpg",
+      "photoUrl": "https://pbs.twimg.com/profile_images/981531162790285313/6ZcVrehB_400x400.jpg",
+      "shortBio": "Developper, tech leader, agile companion",
       "socials": [{
           "link": "fabientregan",
           "icon": "github",
@@ -2021,9 +2066,10 @@
     "Gxnp9MqHVYS8Zqv5z6nr8rx8Dpy2": {
       "bio": "Software Engineer, enjoying and using Scala at work for ~3 years now.  \nLove working on scalability and high availability.  \nThink we can improve hard skills by tackling soft skills.",
       "company": "Teads",
+      "companyLogoUrl": "/images/logos/3.svg",
       "country": "Montpellier, France",
       "name": "Tristan Sallé",
-      "photoUrl": "https://avatars2.githubusercontent.com/u/6387457?v=4",
+      "photoUrl": "https://pbs.twimg.com/profile_images/887002639258574848/_qCdCmz3_400x400.jpg",
       "socials": [{
           "link": "Elyrixia",
           "icon": "github",
@@ -2038,10 +2084,12 @@
     },
     "QuCFwwCRLKQkT4tsxPMRfIu9IdP2": {
       "bio": "Développeuse PHP depuis plus de 15 ans, je suis maintenant Dev dans le Cloud @iAdvize. \n\nDepuis 1 an mes nouvelles passions sont : Kubernetes & tout ce qui tourne autour du PaaS & FaaS. Je suis devenue Cloud Addict, j’adore jouer avec les containers, surfer sur les skills Dev&Ops & jongler dans le monde du Serverless\n",
-      "company": "iAdvize (Nantes)",
+      "company": "iAdvize",
+      "companyLogoUrl": "/images/logos/Iadvize-black.png",
       "country": "Nantes, France",
       "name": "Gaëlle Acas",
       "photoUrl": "https://lh3.googleusercontent.com/-84I3J4cxDuU/AAAAAAAAAAI/AAAAAAAAWtA/Q6I71wRIR0I/photo.jpg",
+      "shortBio":"Développeurs PHP à iAdvize",
       "socials": [{
           "link": "gaelleiadvize / gaelleacas",
           "icon": "github",
