@@ -226,7 +226,7 @@
         },{
           "items" : [ 50 ]
         },{
-          "items" : [ 22 ]
+          "items" : [ 11 ]
         },{
           "items" : [ 36 ]
         },{
@@ -280,7 +280,7 @@
         },{
           "items" : [ 41 ]
         },{
-          "items" : [ 21 ]
+          "items" : [ 27 ]
         },{
           "items" : [ 1 ]
         },{
@@ -340,7 +340,7 @@
       "dateReadable" : "28 juin",
       "timeslots" : [ {
         "sessions" : [ {
-          "items" : [ 45 ]
+          "items" : [  ]
         },{
           "items" : [ 52 ]
         },{
