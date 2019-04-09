@@ -335,6 +335,109 @@
       }, {
         "title" : "Salle 3"
       } ]
+    },
+    "2019-06-28" : {
+      "dateReadable" : "28 juin",
+      "timeslots" : [ {
+        "sessions" : [ {
+          "items" : [ 45 ]
+        },{
+          "items" : [ 52 ]
+        },{
+          "items" : [ 0 ]
+        },{
+          "items" : [ 46 ]
+        },{
+          "items" : [ 34 ]
+        } ],
+        "startTime" : "9:00",
+        "endTime" : "09:50"
+      },{
+        "sessions" : [ {
+          "items" : [ 49 ]
+        },{
+          "items" : [ 9 ]
+        },{
+          "items" : [ 15 ]
+        },{
+          "items" : [ 44 ],
+          "extend" : 2
+        },{
+          "items" : [ 8 ],
+          "extend" : 2
+        } ],
+        "startTime" : "10:05",
+        "endTime" : "10:55"
+      },{
+        "sessions" : [ {
+          "items" : [ 12 ]
+        },{
+          "items" : [ 31 ]
+        },{
+          "items" : [ 17 ]
+        } ],
+        "startTime" : "11:10",
+        "endTime" : "12:00"
+      },{
+        "sessions" : [ {
+          "items" : [ 43 ]
+        },{
+          "items" : [ 42 ]
+        },{
+          "items" : [ 20 ]
+        },{
+          "items" : [ 26 ],
+          "extend" : 3
+        },{
+          "items" : [ 38 ],
+          "extend" : 3
+        } ],
+        "startTime" : "14:00",
+        "endTime" : "14:20"
+      },{
+        "sessions" : [ {
+          "items" : [ 4 ]
+        },{
+          "items" : [ 37 ]
+        },{
+          "items" : [ 5 ]
+        } ],
+        "startTime" : "14:25",
+        "endTime" : "14:45"
+      },{
+        "sessions" : [ {
+          "items" : [ 23 ]
+        },{
+          "items" : [ 47 ]
+        } ],
+        "startTime" : "15:05",
+        "endTime" : "15:50"
+      },{
+        "sessions" : [ {
+          "items" : [ 28 ]
+        },{
+          "items" : [ 25 ]
+        },{
+          "items" : [ 6 ]
+        },{
+          "items" : [ 40 ]
+        },{
+          "items" : [ 53 ]
+        } ],
+        "startTime" : "16:10",
+        "endTime" : "17:00"
+      }],
+      "tracks" : [ {
+        "title" : "Amphi D"
+      }, {
+        "title" : "Amphi E"
+      }, {
+        "title" : "Salle 1"
+      }, {
+        "title" : "Salle 2"
+      }, {
+        "title" : "Salle 3"
+      } ]
     }
 
 
