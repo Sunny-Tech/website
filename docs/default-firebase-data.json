@@ -1275,28 +1275,40 @@
     },
     "Rm5deJSGLjX2ftBToiMch5CWS0T2": {
       "bio": "Après des études en sciences politiques et management des médias, Marie fait ses armes en marketing web au Monde.fr et chez Canal Plus. Au sein de l’agence Backelite (aujourd'hui Idean) à partir de 2009, elle exerce différents métiers pour les plus grandes marques du digital : chef de projet, conceptrice fonctionnelle, consultante en stratégie mobile, manager conseil… avant de créer et de piloter la Direction de l’Expérience Utilisateur. En 2018, elle rejoint Crédit Agricole Technologies et Services pour mettre en place le département d’UX design et participer à la transformation de l’entreprise IT au service des Caisses régionales du Crédit Agricole.\n",
+      "shortBio": "Leader du Chapitre Expérience Utilisateur à Crédit Agricole Technologies et Services",
       "company": "Crédit Agricole Technologies & Services",
+      "companyLogoUrl": "/images/logos/ca.png",
       "country": "Paris",
       "name": "Marie Petit",
       "photoUrl": "https://lh4.googleusercontent.com/-UWIjvUDIYaU/AAAAAAAAAAI/AAAAAAAAAAA/RSgu9csWvZI/photo.jpg",
       "socials": [{
-        "link": "@aglaee",
+        "link": "https://twitter.com/@aglaee",
         "icon": "twitter",
         "name": "Twitter"
-      }]
+      }],
+      "title": "Leader du Chapitre Expérience Utilisateur"
     },
     "VzO198n3jiUG2I5BxnRGX0kp0xu2": {
-      "bio": "",
-      "company": null,
+      "bio": "Chef de projet Open Data chez Montpellier Méditerranée Métropole.\nDocteur en géographie: Open Data, Neogeography, Geoweb",
+      "shortBio": "Chef de projet Open Data chez Montpellier Méditerranée Métropole.\nDocteur en géographie: Open Data, Neogeography, Geoweb",
+      "company": "Montpellier Méditerranée Métropole",
+      "companyLogoUrl": "https://upload.wikimedia.org/wikipedia/fr/0/0f/MONTPELLIER_MEDITERRANEE_METROPOLE.png",
       "country": "France",
-      "name": "",
-      "photoUrl": "",
-      "socials": []
+      "name": "Jérémie Valentin",
+      "title": "Chef de projet Open Data",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQEjtGXZ-z8byw/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=uOMQeAPhAysPf9eu0QABglDCUG9PV0oKhOmPDhGpozg",
+      "socials": [{
+        "icon": "linkedin",
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-valentin-45231115/?originalSubdomain=fr"
+      }]
     },
     "977YQDolbxde0ito7I2dUiee2ap1": {
       "bio": "Développeur depuis plus de 10 ans, Nicolas est actuellement consultant et formateur chez Zenika Nantes.\n\nAprès de trop longues années de développement Java, il prend le contrepied et s'intéresse maintenant à tout ! Sa quête de nouveauté l'amène à explorer les mondes du front avec ReactJS, du NoSQL avec MongoDB, et des langages modernes tels que Go(lang) ou encore Kotlin.\n\nSon goût du partage le pousse à devenir formateur, notamment sur Go(lang), et à se lancer dans l'open source en créant [immutad●t](https://github.com/Zenika/immutadot), une bibliothèque JavaScript pour manipuler les structures immuables imbriquées.",
+      "shortBio": "Consultant et formateur chez Zenika Nantes",
       "company": "Zenika",
       "country": "Nantes, France",
+      "companyLogoUrl": "/images/logos/zenika.png",
       "name": "Nicolas Lepage",
       "photoUrl": "https://lh6.googleusercontent.com/-96ltg2kr4oc/AAAAAAAAAAI/AAAAAAAAAG4/bk0-E9b9kuU/photo.jpg",
       "socials": [{
@@ -1312,9 +1324,11 @@
       ]
     },
     "Aow2VohW2SOMagU6kwU98RltKyT2": {
-      "bio": "Vieux développeur. C'est tout et c'est déjà pas mal !\n\n",
+      "bio": "Vieux développeur. C'est tout et c'est déjà pas mal !",
+      "shortBio": "Architecte solutions à Zenika",
       "company": "Zenika",
       "country": "Nantes, France",
+      "companyLogoUrl": "/images/logos/zenika.png",
       "name": "Bruno Bonnin",
       "photoUrl": "https://avatars3.githubusercontent.com/u/1908593?v=4",
       "socials": [{
@@ -1331,10 +1345,12 @@
     },
     "WsFwYGpA6WcR4mCOahRGHiNQt5v1": {
       "bio": "Développeuse freelance iOS et Web, passionnée par la tech depuis 8 ans, je suis aussi co-fondatrice de Maplr : société spécialisée en mobilité internationale des développeurs(euses) vers le Canada.\nJ'accompagne les développeurs(euses) dans leur projet d'expatriation de A à Z (analyse du projet, recherche d'emploi, visa, relocalisation et intégration sur place). ",
-      "company": "https://maplr.co",
+      "shortBio": "Co-fondatrice de Maplr",
+      "company": "Maplr",
+      "companyLogoUrl": "/images/logos/maplr.png",
       "country": "Montpellier",
-      "name": "Marion",
-      "photoUrl": "https://pbs.twimg.com/profile_images/1091321620222918658/7IXsSUEJ_normal.jpg",
+      "name": "Marion Félix",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFbyKkI2B-w5w/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=-NE8E4KhmvfZxAFY6iKiTNLVvmNSc08KicaeT6FV3BI",
       "socials": [{
         "link": "marionflex",
         "icon": "twitter",
@@ -1344,8 +1360,10 @@
     "bAkrQrssjgU1zb5V2y2QpVnuCmf1": {
       "bio": "GDE Web Technology, je travaille pour Sfeir en tant que CTO de l'agence de Nantes.\n\nEn dehors du travail, je suis co-fondateur du GDG Nantes, organisateur du DevFest Nantes, co-créateur des Nantes Wit\n\nRetrouvez l'ensemble de mes contributions sur https://github.com/jefBinomed",
       "company": "Sfeir / GDG Nantes",
+      "shortBio": "CTO Sfeir Nantes, co-fondateur GDG Nantes, organisateur DevFest Nantes, co-créateur des Nantes Wit. ",
+      "companyLogoUrl": "/images/logos/sfeir.png",
       "country": "Nantes, France",
-      "name": "jean-francois garreau",
+      "name": "Jean-Francois Garreau",
       "photoUrl": "https://lh6.googleusercontent.com/-jDbKZi8b1pE/AAAAAAAAAAI/AAAAAAAASRc/rrjQ9nn1LgQ/photo.jpg",
       "socials": [{
           "link": "jefbinomed",
@@ -1361,10 +1379,12 @@
     },
     "3UiCmc7gDjgMC6hMPreM6B0sYCI3": {
       "bio": "Développeur Front-End, je suis passionné par le développement web, l'écosystème JavaScript et la programmation fonctionnelle.\n\nMembre du [JUG Montpellier](https://www.jug-montpellier.org/) et de l'association [Montpellier Tech Hub](https://www.montpellier-techhub.org/), je laisse ma curiosité et ma passion me guider dans mon apprentissage.",
-      "company": "Teads.tv",
+      "shortBio": "Développeur Front-End à Teads",
+      "company": "Teads",
+      "companyLogoUrl": "/images/logos/3.svg",
       "country": "Montpellier, France",
-      "name": "Fabien BERNARD",
-      "photoUrl": "https://lh6.googleusercontent.com/-DmvXQQW27K4/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq1QDg6yE-bl6X7MwpABQV5gMyi6zg/mo/photo.jpg",
+      "name": "Fabien Bernard",
+      "photoUrl": "https://media.licdn.com/dms/image/C5103AQH9ibbkB4zfHg/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=PedebhqGoUkusmFfswYTVxLFBWe-yvvFzykuYjRZKZY",
       "socials": [{
         "link": "f4b13n",
         "icon": "github",
@@ -1373,7 +1393,9 @@
     },
     "wWgewscLgKXvaA4zjRvt3fQj8f23": {
       "bio": "CTO  depuis quelques années.\n\nD’abord d'une startup interne dans une grand banque puis dans une ESN pour la transformer en ESN 2.0 (...) \n\nFan d’Elixir, de Programmation Fonctionnel, et d'Agilité.\n\nJe pense que l'IT en France a raté pas mal de virage technologique et méthodologique et n'est pas en train de prendre de virage du tout... j'essaye d’éduquer mes clients et collègues pour que ça change !\n\n[LinkedIn](https://www.linkedin.com/in/savoisn/)",
+      "shortBio": "CTO à TalanLabs",
       "company": "TalanLabs",
+      "companyLogoUrl": "https://www.talan.com/wp-content/uploads/2016/02/logo-talanlabs.png",
       "country": "Chantilly, France",
       "name": "Nicolas Savois",
       "photoUrl": "https://avatars3.githubusercontent.com/u/576605?v=4",
@@ -1391,9 +1413,11 @@
     },
     "WguCqxka0kY8cE90xzsHzXmbdpm1": {
       "bio": "Samy Zarour est ingénieur diplômé de l'ENSAI (école d'ingénieur spécialisée en statistiques).\nIl a de l'expérience en data science, data engineering et développement web.\nNiveau language, il programme depuis 3 ans en Scala, mais il a également réalisé des projets en R, Python et Java.\nIl s'est spécialisé dans le framework Spark, ainsi que dans l'écosystème Big Data (Kafka, Hadoop, Cloud...).\nCe qu'il aime dans son métier: résoudre de manière abstraite des problèmes concrets.",
+      "shortBio": "Big Data Engineer & Data Scientist à TabMo",
       "company": "TabMo",
+      "companyLogoUrl": "/images/logos/tabmo.png",
       "country": "Montpellier",
-      "name": "???",
+      "name": "Samy Zarour",
       "photoUrl": "https://avatars3.githubusercontent.com/u/14804744?v=4",
       "socials": [{
         "link": "zaroursamy",
@@ -1403,10 +1427,12 @@
     },
     "rDKV0gUOk0O4WU9tpknPAngMF9A3": {
       "bio": "Google Developer Expert on Google Cloud, I am above all passionate about tech, languages, infrastructure, and automation. \n\nJava, Kotlin, Javascript or TypeScript are my day-to-day languages. I deploy all of those on the Google Kubernetes Engine with the Continuous Integration of Gitlab 🚀. \n\nAddict of agility and devops, some of my work was to help teams to follow those philosophies. From the analysis of the code quality (with code-review or static analysis tool) to the setup of unit or end-to-end tests and ending by the continuous deployment of the application directly on the Google Cloud platform. \n\nMy mantra is to go to production as soon as possible! In my activity in Stack Labs and also in my personal time, I contribute on open source projects (Spring boot, Spring Security, Angular, Protractor, Jest schematics for Angular, NgxOpenlayers...). . \n\nI'm involved in the GDG Toulouse, on the organization part (for the video capture part) and to provide some talks too. Following that, I'm also into the DevFest Toulouse team since day 1. I'm mainly managing the website during the Devfest season. Thanks to that, I became the first external contributor to the GDG-X/hoverboard project. \n\nI'm currently CTO (and one of the founder) of Stack Labs, a company specialized in architecture and development of cloud solution. I supervise about twenty passionate and talented developers in their missions and during our internal events",
+      "shortBio": "CTO & co-founder at Stack Labs",
+      "companyLogoUrl": "/images/logos/stacklabs.png",
       "company": "Stack Labs",
       "country": "Toulouse, France",
       "name": "Kevin Davin",
-      "photoUrl": "https://lh5.googleusercontent.com/-t2c2Q9TjKnA/AAAAAAAAAAI/AAAAAAAAFZU/G4vUXziejAw/photo.jpg",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQGMKKOF2a9IXg/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=Q38xCLZdKMdT7eEnu_mALvc7l-dseQXD8OlQbmNW4vc",
       "socials": [{
           "link": "davinkevin",
           "icon": "github",
@@ -1422,6 +1448,7 @@
     "thaZ3448ukeDRFYa4LeuBHt7zg43": {
       "bio": "I’m a compulsive designer of strong typed functional, logic and object-oriented programming languages! \nThe rest of the time, I'm a freelance software developer working really hard to produce usable and used applications.\n\n**Themes**: Language theory and design, Mobile Applications, Cloud Computing, Grid Computing, Actor-based  framewor​k and Distributed Computing.\n\nTalks: \n- DevFest Toulouse 2016, 2017 -De java à swift en 2 temps trois mouvements\n- Voxxed Luxembourg 2017 - De java à swift en 2 temps trois mouvements\n- DevFest Toulouse 2017 - Apéro fonctionnel (avec P. Charrière et al.)\n- Devoxx Marocco 2017 - Leçon de cuisine en Swift - Confection d'un Cake ... Pattern\n- NewCraft Paris 2018 - High Order \"Transformation\" Function\n- SunnyTech 2018 - Kotlin Parsec\n- ScalaIO 2018 - High Order \"Transformation\" Function\n- Capitole du Libre 2018 - Acteur, un modèle élégant pour le calcul concurrentiel et distribué - avec Alessio Coltallecci",
       "company": "Fungus",
+      "shortBio": "Freelance software developer",
       "country": "Toulouse, France",
       "name": "Didier Plaindoux",
       "photoUrl": "https://avatars2.githubusercontent.com/u/752324?v=4",
@@ -1439,10 +1466,12 @@
     },
     "CSZyjAMftrfCaH12X1yReJvBYy93": {
       "bio": "Software engineer, Apple technologies expert at SOAT, Swift & iOS programming, iOS Tech leader at Chanel, founder of a couple cool things, author of Fear the ponies coding dojo.",
+      "shortBio": "Software engineer at SOAT, iOS tech leader at Chanel",
       "company": "SOAT",
+      "companyLogoUrl": "/images/logos/soat.png",
       "country": "Paris, France",
       "name": "Raphaël Wach",
-      "photoUrl": "https://lh3.googleusercontent.com/-gTEAbEfuSJc/AAAAAAAAAAI/AAAAAAAAAHc/D2yLt6K_rDg/photo.jpg",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQGwNafa8acV6g/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=W3rxmnraAxfXV6tOUXhHrDaS1WrtT3WlyrJr3ywSGeI",
       "socials": [{
         "link": "@raphaelwach",
         "icon": "twitter",
@@ -1458,8 +1487,10 @@
       "socials": []
     },
     "RcX2utpBETcNTT4zJneK3LL28dn1": {
-      "bio": "",
+      "shortBio": "Livreur de clémentine à Smag",
+      "bio": "Livreur de clémentine à Smag",
       "company": "Smag",
+      "companyLogoUrl": "/images/logos/smag.png",
       "country": "Montpellier, France",
       "name": "Clément Gresse",
       "photoUrl": "https://lh6.googleusercontent.com/-uCWYfUJlKs0/AAAAAAAAAAI/AAAAAAAAL50/nwk98LUAjEw/photo.jpg",
@@ -1472,9 +1503,11 @@
     "VUxPhy4Ad2VMU8EyphhUom3RSan1": {
       "bio": "Co-organisateur du meetup __*DDD FR*__   mais aussi du meetup __*BDD Paris*__.    Speaker international (mais avec un accent de ...).\n\nMalgré une certaine passion pour le développement logiciel (écoles XP & DDD) ainsi que pour le travail en équipe, Thomas ne désespère pas de trouver un autre moyen d’expression ou sa créativité sera -il l’espère- un peu plus reconnue.\n\n\n \nAprès s’être essayé en vain à la musique, au Tai-Chi-Chuan, à la cuisine, au poker-live et à la philosophie… Thomas le sait : un jour il sera astrophysicien ou même publicitaire (d’ailleurs il offrira -20% sur l’esprit de la forêt lors de son prochain talk).\n",
       "company": "42 skillz",
+      "companyLogoUrl": "/images/logos/42skillz.png",
+      "shortBio": "Change agent (powered by Software). Badass developer & Co-founder of 42skillz",
       "country": "Paris, France",
-      "name": "υѕe caѕe drιven",
-      "photoUrl": "https://pbs.twimg.com/profile_images/1033113264941662214/DWXcsTcH_normal.jpg",
+      "name": "Thomas Pierrain",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQG8pCd2-O4tHQ/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=6fXs_5HHK9yTypGlR07Q2IjA5v9HWM5krUnLYkfm53Y",
       "socials": [{
           "link": "tpierrain",
           "icon": "github",
@@ -1488,10 +1521,12 @@
       ]
     },
     "WDm2hCGOlLfIYHPHjaEry7aIpbT2": {
-      "bio": "Mathieu ANCELIN est développeur chez SERLI, spécialisé dans la programmation web avec Scala, Java, JavaScript, des streams, de la data et cloud. Et s'il y du React, c'est encore mieux ;-) Mathieu est le lead développeur de quelques projets open-source comme ReactiveCouchbase ou Otoroshi, un reverse-proxy moderne avec de l'api managment léger. Vous pouvez régulièrement le croiser au Poitou-Charentes JUG.",
+      "bio": "Mathieu Ancelin est développeur chez SERLI, spécialisé dans la programmation web avec Scala, Java, JavaScript, des streams, de la data et cloud. Et s'il y du React, c'est encore mieux ;-) Mathieu est le lead développeur de quelques projets open-source comme ReactiveCouchbase ou Otoroshi, un reverse-proxy moderne avec de l'api managment léger. Vous pouvez régulièrement le croiser au Poitou-Charentes JUG.",
       "company": "SERLI",
+      "shortBio": "Software engineer chez SERLI",
+      "companyLogoUrl": "/images/logos/serli.png",
       "country": "Poitiers",
-      "name": "Mathieu ANCELIN",
+      "name": "Mathieu Ancelin",
       "photoUrl": "https://avatars3.githubusercontent.com/u/277206?v=4",
       "socials": [{
           "link": "mathieuancelin",
@@ -1507,7 +1542,9 @@
     },
     "0rNZujyWZhWZkxHWh7NZdnLv2873": {
       "bio": "CTO de Zenika Nantes, Julien est aussi Google Developer Expert Cloud. Il a co-fondé en Janvier 2011 le GDG Nantes, une communauté de développeurs des technologies Google et organise chaque année le DevFest Nantes.",
+      "shortBio": "CTO de Zenika Nantes & Google Developer Expert Cloud",
       "company": "Zenika",
+      "companyLogoUrl": "/images/logos/zenika.png",
       "country": "Nantes",
       "name": "Julien Landuré",
       "photoUrl": "https://lh5.googleusercontent.com/-BrUtXil2gXA/AAAAAAAAAAI/AAAAAAAArDA/X8QWXTZ-ZrA/photo.jpg",
@@ -1525,7 +1562,9 @@
     },
     "27dsgKVju3Vy9E786QvdHCrtEYl1": {
       "bio": "Développeur passionné, plutôt orienté back mais également curieux du front.\n\nJ'ai basculé depuis peu du côté ops et je m'intéresse fortement à tout ce qui touche à la sécurité.",
+      "shortBio": "Développeur @ZenikaBordeaux, Organisateur @bdxio",
       "company": "Zenika",
+      "companyLogoUrl": "/images/logos/zenika.png",
       "country": "Bordeaux, France",
       "name": "Benoît Giraudou",
       "photoUrl": "https://lh5.googleusercontent.com/-pT9hsK8XGiI/AAAAAAAAAAI/AAAAAAAAE9c/lP9_MC64dA8/photo.jpg",
@@ -1543,7 +1582,9 @@
     },
     "2uYlHCCY3kap9HQTyUf2GF0Uptg2": {
       "bio": "Père de 3 garçon et gardien de nombreux microcontrolleurs, Emmanuel est un développeur passionné depuis bientôt 20 ans. Il a évolué dans de nombreux contextes de banque et assurance en France et en Suisse. KISS est son moto, le sourire des utilisateurs son but, Java/scala et l'iot sont ses armes ... Emmanuel aime partager son savoir et est impliqué dans plusieurs initiatives telles que Devoxx4kids, Devoxx France.",
-      "company": null,
+      "shortBio": "IT Architect à Compte-Nickel",
+      "company": "Compte-Nickel",
+      "companyLogoUrl": "/images/logos/comptenickel.jpg",
       "country": "Niort, France",
       "name": "Emmanuel Feller",
       "photoUrl": "https://lh5.googleusercontent.com/-GUs9AGBi9Vk/AAAAAAAAAAI/AAAAAAAAAHw/qsIBw8PJMNw/photo.jpg",
@@ -1562,9 +1603,11 @@
     "uGGZuv5ZwmbTOZhWhBujIEIhQ7W2": {
       "bio": "Aurélien Hébert is a french software engineer living near Brest. He started as a software engineer in the Alten R&D team on a Big data project. This project was about discovering pattern in mobility data. After this first experience he wanted to work on a technical project including more sensors data. He joined a Startup (Cityzen Data) building an open source Geo-Time-Series database (Warp 10) and its associated language to manipulate it. Here he got data, a lot of them. He joined recently the OVH Metrics team to continue his data adventure. He also like to share his experience in local conference such as FinistDev or meetups.",
       "company": "OVH",
+      "shortBio": "Software engineer at OVH Metrics",
+      "companyLogoUrl": "/images/logos/ovh.png",
       "country": "Brest, France",
-      "name": "A. Hébert",
-      "photoUrl": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "name": "Aurélien Hébert",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQEaF4rzhRkCpA/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=YOKnzA60OmKosOoXfi-10l0bPaC3eUdkETFy8cT4AWE",
       "socials": [{
           "link": "aurrelhebert",
           "icon": "github",
@@ -1579,10 +1622,12 @@
     },
     "zPNPb3IvUgVc5rJ1vuik7tIuQnw2": {
       "bio": "Développeur et formateur indépendant, co-organisateur de SoCraTes-Fr et F# addicte, j'aime construire des solutions pertinentes pour résoudre des problèmes.",
+      "shortBio": "Développeur à Softcraft, formateur indépendant, co-organisateur de SoCraTes-Fr et F# addicte",
+      "companyLogoUrl": "/images/logos/softcraft.png",
       "company": "SOFTCRAFT",
       "country": "Paris",
       "name": "Mickael Metesreau",
-      "photoUrl": "https://avatars2.githubusercontent.com/u/770291?v=4",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQFGN7Y1C2yQlQ/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=RRUdxCsxjUWgsFKcg48eI6RuktTODfNn7uRe3Wc0kjI",
       "socials": [{
           "link": "MiKaDoO",
           "icon": "github",
@@ -1597,10 +1642,12 @@
     },
     "kl8dIow7hxP69iJO2VEcAqkwT9L2": {
       "bio": "Le m4dz est un animal curieux. Au travers de plusieurs vies, il a toujours cherché à transmettre aux autres ce qu'il avait pu comprendre et connaître. Au départ developpeur web (personne n'est parfait), soucieux de vie privée, de l'usage respecteux des données de chacun, et de sécurité, Il est maintenant Tech Evangelist chez alwaysdata. Il essaie de sensibiliser les autres aux enjeux d'aujourd'hui et de demain sur les réalités du numérique. Son livre préféré restera toujours « Alice au Pays des Merveilles ».",
+      "shortBio": "Tech Evangelist at @alwaysdata",
       "company": "alwaysdata",
+      "companyLogoUrl": "/images/logos/alwaysdata.png",
       "country": "Paris",
       "name": "m4dz",
-      "photoUrl": "https://avatars0.githubusercontent.com/u/471486?v=4",
+      "photoUrl": "https://pbs.twimg.com/profile_images/1060870327914369024/iF65Lkie_400x400.jpg",
       "socials": [{
           "link": "m4dz",
           "icon": "github",
@@ -1616,6 +1663,8 @@
     "uPTrOsxxDKcCVEY9OPUmot0Dts02": {
       "bio": "Développeur passionné et touche à tout depuis 15 ans. Adepte du principe KISS avec une tendance craftsman.\nUn peu ops sur les bords..",
       "company": "Saagie",
+      "companyLogoUrl": "/images/logos/saagie.png",
+      "shortBio": "Développeur à Saagie",
       "country": "Toulouse, France",
       "name": "Ghislain Mahieux",
       "photoUrl": "https://avatars2.githubusercontent.com/u/2302324?v=4",
@@ -1634,6 +1683,8 @@
     "TohrkKsx0XQlkAXwnGrfAA3LOM03": {
       "bio": "Un data scientist passionné par le Machine Learning et la science en général. Après un doctorat en statistiques Bayésiennes, j'ai choisi de me lancer dans le monde fascinant de la data science. Depuis 2018, je suis data scientist chez Adagio.",
       "company": "Adagio",
+      "shortBio": "Data scientist à Adagio",
+      "companyLogoUrl": "/images/logos/adagio-labs.png",
       "country": "Montpellier",
       "name": "Nicolas Duforet",
       "photoUrl": "https://lh4.googleusercontent.com/-Yz1-XLgNHXI/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPj1_GvBQa91xLaUlSqz5v2f_gdDw/mo/photo.jpg",
