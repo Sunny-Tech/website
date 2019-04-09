@@ -229,22 +229,101 @@
           "items" : [ 22 ]
         },{
           "items" : [ 36 ]
+        },{
+          "extend": 2,
+          "items" : [ 10 ]
         } ],
         "startTime" : "10:05",
         "endTime" : "10:55"
       },{
         "sessions" : [ {
-          "items" : [ 45 ]
+          "items" : [ 48 ]
         },{
-          "items" : [ 50 ]
+          "items" : [ 13 ]
         },{
-          "items" : [ 22 ]
+          "items" : [  ]
         },{
-          "items" : [ 36 ]
+          "items" : [ 21 ]
         } ],
         "startTime" : "11:10",
         "endTime" : "12:00"
-      }],
+      },{
+        "sessions" : [ {
+          "items" : [ 32 ]
+        },{
+          "items" : [ 22 ]
+        },{
+          "items" : [ 51 ]
+        },{
+          "items" : [ 7 ]
+        },{
+          "extend": 2,
+          "items" : [ 39 ]
+        }],
+        "startTime" : "14:00",
+        "endTime" : "14:50"
+      }, {
+        "sessions" : [ {
+          "items" : [ 55 ]
+        },{
+          "items" : [ 24 ]
+        },{
+          "items" : [ 18 ]
+        },{
+          "items" : [ 54 ]
+        } ],
+        "startTime" : "15:05",
+        "endTime" : "15:55"
+      },{
+        "sessions" : [ {
+          "items" : [ 2 ]
+        },{
+          "items" : [ 41 ]
+        },{
+          "items" : [ 21 ]
+        },{
+          "items" : [ 1 ]
+        },{
+          "extend": 3,
+          "items" : [ 16 ]
+        } ],
+        "startTime" : "16:10",
+        "endTime" : "17:10"
+        }
+
+      ,{
+          "sessions" : [ {
+            "items" : [ 33 ]
+          },{
+            "items" : [ 29 ]
+          },{
+            "items" : [ 19 ]
+          },{
+            "items" : [ 3 ]
+          },{
+            "items" : [ ]
+          } ],
+          "startTime" : "17:10",
+          "endTime" : "17:30"
+        }
+
+      ,{
+          "sessions" : [ {
+            "items" : [ 30 ]
+          },{
+            "items" : [ 35 ]
+          },{
+            "items" : [ 56 ]
+          },{
+            "items" : [ 14 ]
+          },{
+            "items" : [ ]
+          } ],
+          "startTime" : "17:40",
+          "endTime" : "18:00"
+        }
+
+      ],
       "tracks" : [ {
         "title" : "Amphi D"
       }, {
