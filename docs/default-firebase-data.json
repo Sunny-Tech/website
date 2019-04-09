@@ -2055,42 +2055,48 @@
       ]
     },
     "lhwORZ2dSGbF1OG6VkfbjkOCzR12": {
-      "bio": "",
-      "company": null,
+      "bio": "Speaker and Software Craftsman at LGO Group",
+      "shortBio": "Speaker and Software Craftsman at LGO Group",
+      "company": "LGO Group",
+      "companyLogoUrl": "/images/logos/lgo_group.jpg",
       "country": "France",
       "name": "Arnaud LEMAIRE",
       "photoUrl": "https://avatars2.githubusercontent.com/u/335501?v=4",
       "socials": [{
-        "link": "@lilobase",
+        "link": "https://twitter.com/lilobase",
         "icon": "twitter",
         "name": "Twitter"
       }]
     },
     "zQ0mhj745ZgtNDL3QL6pVT316ai2": {
       "bio": "Geek, ex-nerd repenti, je code, je teste, je bricole, je soude. Software Craftsman, Coach, je suis libriste dans l'âme et suis donc très impliqué dans le mouvement de logiciels libres.",
+      "shortBio": "Software Craftsman à Suricats Consulting",
       "company": "Suricats Consulting",
+      "companyLogoUrl": "/images/logos/suricats.png",
       "country": "Massy, France",
       "name": "Olivier PONCET",
       "photoUrl": "https://avatars2.githubusercontent.com/u/29702924?v=4",
       "socials": [{
-        "link": "@ponceto91",
+        "link": "https://twitter.com/ponceto91",
         "icon": "twitter",
         "name": "Twitter"
       }]
     },
     "rFqizov3LlVh55Zbco4ppxmARkD2": {
-      "bio": "https://www.linkedin.com/in/gwened",
+      "bio": "Senior Software Engineer at Ubisoft",
+      "shortBio": "Senior Software Engineer at Ubisoft",
       "company": "Ubisoft",
+      "companyLogoUrl": "/images/logos/6810_ubisoft-prev-500x500.png",
       "country": "Montpellier",
-      "name": "???",
+      "name": "Olivier Cado",
       "photoUrl": "https://avatars1.githubusercontent.com/u/26746569?v=4",
       "socials": [{
-          "link": "Gwened",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/Gwened",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@ocado3456",
+          "link": "https://twitter.com/ocado3456",
           "icon": "twitter",
           "name": "Twitter"
         }
@@ -2098,91 +2104,103 @@
     },
     "VeBTP8lqOYaXBCpwTlGjBW2n1yH2": {
       "bio": "Laurent Grangeau is a Cloud Solution Architect with more than 10+ years of experience. Former Java developer, he has since developed in .NET, with Agile and DevOps mindsets. He has been experimenting with cloud providers for more than 5+ years. Docker enthusiast from the beginning, he has experienced with building microservices and distributed systems. He loves to automate things and run distributed applications at scale.",
+      "shortBio": "Cloud Solution Architect at Sogeti",
       "company": "Sogeti",
+      "companyLogoUrl": "/images/logos/sogeti.png",
       "country": "Paris, France",
       "name": "Laurent Grangeau",
       "photoUrl": "https://avatars3.githubusercontent.com/u/4910715?v=4",
       "socials": [{
-          "link": "laurentgrangeau",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/laurentgrangeau",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@laurentgrangeau",
+          "link": "https://twitter.com/laurentgrangeau",
           "icon": "twitter",
           "name": "Twitter"
         }
       ]
     },
     "yaTaDtCKwfZTe2hDdiRAhneXOy33": {
-      "bio": "",
-      "company": null,
+      "bio": "Software engineer at Teads",
+      "shortBio": "Software engineer at Teads",
+      "company": "Teads",
+      "companyLogoUrl": "/images/logos/3.svg",
       "country": "France",
       "name": "Roch Dardie",
       "photoUrl": "https://lh3.googleusercontent.com/-x3iVfqrTwN8/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-hU5h4K2FTDnxdmjufYp0b59YNEiQ/mo/photo.jpg",
       "socials": []
     },
     "uQa7PBe5RzPSp6sDO59AeK7oyTM2": {
-      "bio": "Benjamin est __consultant-facilitateur__ dans le design de service, le digital design et l’innovation en cycle court. Son approche résolument centrée sur l’humain propulse les __équipes pluridisciplinaires__ au cœur de l’__expérience client et utilisateur__ (UX). \n\n__Formateur sur les méthodes__ qui mettent en jeu l’intelligence collective : Design Thinking pour innover par la créativité, Design Sprint pour passer de l’idée à l’action en 5 jours, Lean UX pour dérisquer ses projets. Son coup de cœur…le LEGO® Serious Play®.\"\n\nTwitter : @BenUserMood\nLinkedin : https://www.linkedin.com/in/benjamin-richy-b63452105/\nWeb : ben.usermood.net\nMedium : https://medium.com/@BenUserMood\n",
+      "bio": "Benjamin est __consultant-facilitateur__ dans le design de service, le digital design et l'innovation en cycle court. Son approche résolument centrée sur l'humain propulse les __équipes pluridisciplinaires__ au cœur de l'__expérience client et utilisateur__ (UX). \n\n__Formateur sur les méthodes__ qui mettent en jeu l'intelligence collective : Design Thinking pour innover par la créativité, Design Sprint pour passer de l'idée à l'action en 5 jours, Lean UX pour dérisquer ses projets. Son coup de cœur…le LEGO® Serious Play®.\"\n\nTwitter : @BenUserMood\nLinkedin : https://www.linkedin.com/in/benjamin-richy-b63452105/\nWeb : ben.usermood.net\nMedium : https://medium.com/@BenUserMood\n",
+      "shortBio": "consultant-facilitateur à WAT (Work Alone Together)",
       "company": "WAT - Work Alone Together",
+      "companyLogoUrl": "",
       "country": "Lyon, France",
       "name": "Benjamin Richy",
       "photoUrl": "https://pbs.twimg.com/profile_images/969461551362183168/z_YRWOoW_normal.jpg",
       "socials": [{
-          "link": "benj-github",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/benj-github",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@BenUserMood",
+          "link": "https://twitter.com/BenUserMood",
           "icon": "twitter",
           "name": "Twitter"
         }
       ]
     },
     "Dkx1ZqVXOUb3UT3sVPNiBpFopto1": {
-      "bio": "",
+      "bio": "Samuel is a Principal Engineer at Intel's Open Source Technology Center, where he currently leads the Kata Containers and Clear Containers project. He's also the Linux kernel NFC maintainer and one of the CRI-O maintainers. In previous lives Samuel worked on networking and connectivity, maintaining pieces of the kernel, entire wireless stacks and dealing with obsolete protocols like infrared. He also worked on scaling and lowering production costs for Android by building the IRDA stack. Samuel holds a MS in Computer Science and Automation from Ecole des Mines de Paris.",
+      "shortBio": "Principal software engineer at Intel",
       "company": "Intel",
+      "companyLogoUrl": "",
       "country": "France",
       "name": "Samuel Ortiz",
       "photoUrl": "https://avatars2.githubusercontent.com/u/1043863?v=4",
       "socials": [{
-          "link": "sameo",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/sameo",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@sameo",
+          "link": "https://twitter.com/sameo",
           "icon": "twitter",
           "name": "Twitter"
         }
       ]
     },
     "18IrtZT8ECbkgDtf3HYzvdyuq562": {
-      "bio": "Recruteuse informatique à mon compte (Build RH), entrepreneuse sociale en tant que Présidente de l'association la Clinique RH et Co-fondatrice de l'entreprise Idée for Good (conseil en innovation sociale), militante de la qualité avec le lancement du mouvement recruitment craftsmanship (https://www.meetup.com/fr-FR/RecruitmentCraftsmanship/), je suis souvent souvent visionnaire avec une bière, j'adore faire réfléchir à l’apéro, partager mes idées et mes blagues au dessert, jusqu'à en faire des jeux de maux",
+      "bio": "Recruteuse informatique à mon compte (Build RH), entrepreneuse sociale en tant que Présidente de l'association la Clinique RH et Co-fondatrice de l'entreprise Idée for Good (conseil en innovation sociale), militante de la qualité avec le lancement du mouvement recruitment craftsmanship (https://www.meetup.com/fr-FR/RecruitmentCraftsmanship/), je suis souvent souvent visionnaire avec une bière, j'adore faire réfléchir à l'apéro, partager mes idées et mes blagues au dessert, jusqu'à en faire des jeux de maux",
+      "shortBio": "Recruteuse informatique à mon compte (Build RH)",
       "company": "BUILD RH",
+      "companyLogoUrl": "",
       "country": "Paris",
       "name": "Shirley Almosni Chiche",
       "photoUrl": "https://pbs.twimg.com/profile_images/805113530433339393/PCJQ-_sP_normal.jpg",
       "socials": [{
-        "link": "shirleyalmosni",
+        "link": "https://twitter.com/shirleyalmosni",
         "icon": "twitter",
         "name": "Twitter"
       }]
     },
     "6HmFtonMn8SZ9nTAS6l1WYWEP9o2": {
       "bio": "Développeur et directeur technique de Zenika Bordeaux, j'interviens pour des missions de conseils et d'expertises. Passionné par tout ce qui touche à la sécurité et à l'intelligence artificielle, j'aime discuter de ces sujets dans des meetups ou des conférences.",
+      "shortBio": "Développeur et directeur technique de Zenika Bordeaux",
       "company": "Zenika",
+      "companyLogoUrl": "/images/logos/zenika.png",
       "country": "Bordeaux, France",
       "name": "sebastien descamps",
       "photoUrl": "https://lh6.googleusercontent.com/-HtyPKmBlQgY/AAAAAAAAAAI/AAAAAAAAAAA/dlp29c9zgIU/photo.jpg",
       "socials": [{
-          "link": "sebastienD",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/sebastienD",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@seb_express",
+          "link": "https://twitter.com/seb_express",
           "icon": "twitter",
           "name": "Twitter"
         }
@@ -2190,17 +2208,19 @@
     },
     "zoyriE2DMHXyKCSewITYQwlffO83": {
       "bio": "Software crafter, XP fan, DDD addict, Event stormer, Rugby player, father of 2",
+      "shortBio": "Software crafter",
       "company": "FretLink",
+      "companyLogoUrl": "/images/logos/fretlink.jpg",
       "country": "Montpellier, France",
       "name": "Jérôme Avoustin",
       "photoUrl": "https://pbs.twimg.com/profile_images/1059339172144705536/LVFiFt9l_normal.jpg",
       "socials": [{
-          "link": "rehia",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/rehia",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@JeromeAvoustin",
+          "link": "https://twitter.com/JeromeAvoustin",
           "icon": "twitter",
           "name": "Twitter"
         }
@@ -2209,36 +2229,41 @@
     "O2L34hhaFhRxCscohqPkxEuxo132": {
       "bio": "",
       "company": "SGCIB",
+      "companyLogoUrl": "",
       "country": "Paris, France",
       "name": "???",
       "photoUrl": "https://avatars3.githubusercontent.com/u/9342571?v=4",
       "socials": [{
-        "link": "HaythemZ",
+        "link": "https://github.com/HaythemZ",
         "icon": "github",
         "name": "GitHub"
       }]
     },
     "uwtDCeZKSOVND89EAdUu1q86zKj1": {
       "bio": "Florent is in charge of the software pre-production management and DevOps at Qualtera since 2015. He works in big data software projects for the semiconductor industry.",
+      "shortBio": "DevOps at Qualtera",
       "company": "Qualtera",
+      "companyLogoUrl": "/images/logos/qualtera.jpg",
       "country": "France",
-      "name": "florent casanovas",
+      "name": "Florent Casanovas",
       "photoUrl": "https://lh4.googleusercontent.com/-V1wX4bsAi4c/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfzamE_cwi8jSZroyy6fhLAlP7-hA/mo/photo.jpg",
       "socials": []
     },
     "6gcb9OjG5cgl14IQBEt5yu4TmTT2": {
       "bio": "# -- English version --  \nLudovic felt into _DevOps_ in 2004 with first _Infra as Code_ deployments on _bare-metal_ blade servers. He's found of empowering project teams through automated tools and friendly collaboration, and then welcome `Docker` and `Kubernetes` as the ultimate tools to leverage his favorite practice. Through meetups, conferences and forums, he shares his love for _cloud_, _infra as code_, _devops_ and performance topics. \n\n# -- French version --  \nLudovic est tombé dans le _DevOps_ en 2004, soit… 3 ans avant l'invention du mot _DevOps_. ;-) A l'époque, il fait des déploiements en _Infra as Code_ sur les premiers serveurs blade, en _bare-metal_. Il adore aider les équipes projet à gagner en autonomie via l'usage d'outils et d'automatisation et à travers une collaboration libre et sans contrainte. C'est donc tout naturellement qu'il a accueilli `Docker` et `Kubernetes` comme les outils ultimes pour l'aider dans sa marotte favorite. En _meetups_ comme en conférences, il aime partager son amour pour le _Cloud_, l'_Infra as Code_, le _DevOps_ et les sujets d'optimisation de performance. ",
+      "shortBio": "Head of DevOps/Cloud team at SOAT",
       "company": "SOAT",
+      "companyLogoUrl": "/images/logos/soat.svg",
       "country": "Savigny-sur-Orge, France",
       "name": "Ludovic Piot",
       "photoUrl": "https://lh4.googleusercontent.com/-e48Nhdo-ubE/AAAAAAAAAAI/AAAAAAAANS0/iek18uwtDEw/photo.jpg",
       "socials": [{
-          "link": "ludovicpiot",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/ludovicpiot",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@lpiot",
+          "link": "https://twitter.com/lpiot",
           "icon": "twitter",
           "name": "Twitter"
         }
@@ -2246,17 +2271,19 @@
     },
     "rLjKZWVoncNmVqbM4lVVZpU6pjs1": {
       "bio": "Committer Spring Framework, Kotlin @ Spring et organisateur de la conférence MiXiT.",
+      "shortBio": "Spring Framework committer at Pivotal",
       "company": "Pivotal",
+      "companyLogoUrl": "/images/logos/pivotal.png",
       "country": "Lyon, France",
       "name": "Sébastien Deleuze",
       "photoUrl": "https://pbs.twimg.com/profile_images/770349799036026880/snZVTigC_normal.jpg",
       "socials": [{
-          "link": "sdeleuze",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/sdeleuze",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@sdeleuze",
+          "link": "https://twitter.com/sdeleuze",
           "icon": "twitter",
           "name": "Twitter"
         }
@@ -2264,17 +2291,19 @@
     },
     "Vh46wnWADtXkX9Hjqcfli1Eqwqy1": {
       "bio": "#### Jobs\n- TAM at GitLab\n- Boss at Bots.Garden\n- Chief Stickers Officer at Clever Cloud\n\n#### Quoi d'autre?\n- Plat préféré: Pot au feu\n- Cocktail préféré: Spritz\n- Activités:  Geek, Pêche, Cuisine, Série TV\n- Signe particulier: grosse addiction aux emojis\n- ScalaIO team member\n- GDG Cloud et IOT Lyon co leader\n- BlendWebMix comité éditorial technique\n\n\n",
+      "shortBio": "TAM at GitLab, Boss at Bots.Garden, Chief Stickers Officer at Clever Cloud",
       "company": "Bots.Garden",
+      "companyLogoUrl": "/images/logos/gitlab.png",
       "country": "Lyon, France",
       "name": "Philippe Charrière",
       "photoUrl": "https://lh4.googleusercontent.com/-KXZIew3WR30/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-gpb6V_M4elz0p2n9ujJo_pl5aJdQ/mo/photo.jpg",
       "socials": [{
-          "link": "@k33g",
-          "icon": "github",
-          "name": "GitHub"
-        },
+        "link": "https://github.com/k33g",
+        "icon": "github",
+        "name": "GitHub"
+      },
         {
-          "link": "@k33g_org",
+          "link": "https://twitter.com/k33g_org",
           "icon": "twitter",
           "name": "Twitter"
         }
