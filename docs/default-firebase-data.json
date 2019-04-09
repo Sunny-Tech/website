@@ -216,7 +216,132 @@
       "title": "Partenaires"
     }
   ],
-  "schedule": {},
+  "schedule": {
+
+    "2019-06-27" : {
+      "dateReadable" : "27 juin",
+      "timeslots" : [ {
+        "endTime" : "10:55",
+        "sessions" : [ {
+          "items" : [ 50 ]
+        } ],
+        "startTime" : "10:05"
+      }, {
+        "endTime" : "10:15",
+        "sessions" : [ {
+          "items" : [ 136 ]
+        } ],
+        "startTime" : "10:00"
+      }, {
+        "endTime" : "11:00",
+        "sessions" : [ {
+          "items" : [ 139 ]
+        } ],
+        "startTime" : "10:15"
+      }, {
+        "endTime" : "11:40",
+        "sessions" : [ {
+          "items" : [ 103, 112 ]
+        }, {
+          "items" : [ 120 ]
+        }, {
+          "extend" : 3,
+          "items" : [ 109 ]
+        } ],
+        "startTime" : "11:00"
+      }, {
+        "endTime" : "12:30",
+        "sessions" : [ {
+          "items" : [ 129 ]
+        }, {
+          "items" : [ 116 ]
+        } ],
+        "startTime" : "11:50"
+      }, {
+        "endTime" : "14:00",
+        "sessions" : [ {
+          "items" : [ 133 ]
+        } ],
+        "startTime" : "12:30"
+      }, {
+        "endTime" : "14:40",
+        "sessions" : [ {
+          "items" : [ 101 ]
+        }, {
+          "items" : [ 118 ]
+        }, {
+          "extend" : 2,
+          "items" : [ 107 ]
+        } ],
+        "startTime" : "14:00"
+      }, {
+        "endTime" : "15:30",
+        "sessions" : [ {
+          "items" : [ 140 ]
+        }, {
+          "items" : [ 126 ]
+        } ],
+        "startTime" : "14:50"
+      }, {
+        "endTime" : "16:00",
+        "sessions" : [ {
+          "items" : [ 134 ]
+        } ],
+        "startTime" : "15:30"
+      }, {
+        "endTime" : "16:40",
+        "sessions" : [ {
+          "items" : [ 105 ]
+        }, {
+          "items" : [ 127 ]
+        }, {
+          "extend" : 3,
+          "items" : [ 119 ]
+        } ],
+        "startTime" : "16:00"
+      }, {
+        "endTime" : "17:30",
+        "sessions" : [ {
+          "items" : [ 112 ]
+        }, {
+          "items" : [ 111 ]
+        } ],
+        "startTime" : "16:50"
+      }, {
+        "endTime" : "18:20",
+        "sessions" : [ {
+          "items" : [ 106 ]
+        }, {
+          "items" : [ 125 ]
+        } ],
+        "startTime" : "17:40"
+      }, {
+        "endTime" : "22:30",
+        "sessions" : [ {
+          "items" : [ 137 ]
+        } ],
+        "startTime" : "18:30"
+      } ],
+      "tracks" : [ {
+        "title" : "Amphi D"
+      }, {
+        "title" : "Amphi E"
+      }, {
+        "title" : "Salle 1"
+      }, {
+        "title" : "Salle 2"
+      }, {
+        "title" : "Salle 3"
+      } ]
+    }
+
+
+
+
+
+
+
+  },
   "sessions": {
     "0": {
       "title": "Redux: c'est compliqué de faire simple",
