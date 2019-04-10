@@ -274,7 +274,7 @@
         },{
           "items" : [ 24 ]
         },{
-          "items" : [ 18 ]
+          "items" : [ 27 ]
         },{
           "items" : [ 54 ]
         } ],
@@ -286,7 +286,7 @@
         },{
           "items" : [ 41 ]
         },{
-          "items" : [ 27 ]
+          "items" : [ 18 ]
         },{
           "items" : [ 1 ]
         },{
@@ -294,7 +294,7 @@
           "items" : [ 16 ]
         } ],
         "startTime" : "16:10",
-        "endTime" : "17:10"
+        "endTime" : "17:00"
         }
 
       ,{
@@ -423,7 +423,7 @@
           "items" : [ 47 ]
         } ],
         "startTime" : "15:05",
-        "endTime" : "15:50"
+        "endTime" : "15:55"
       },{
         "sessions" : [ {
           "items" : [ 28 ]
@@ -1245,7 +1245,7 @@
       "complexity": "beginner",
       "description": "Lorsque vous développez des applications vous avez besoin de vous adapter rapidements aux changements (métiers, comme technologiques). Pour cela les développeurs et les “ops” doivent travailler de concert, pour déployer toujours plus rapidement de nouveaux services tout en garantissant la haute disponibilité et la montée en charge des applications.\n\nLes microservices et l’event-sourcing offrent une grande flexibilité aux développeurs; et la containerization par la biais de Kubernetes permet de déployer ces services en toute tranquillité.\n\nCette présentation, en s’appuyant sur des cas d’usage et des démonstration, vous permettra de découvrir:\n* Les micro-services et l’event sourcing avec Apache Kafka\n* Les containers avec Docker\n* Le déploiement et management des services avec Kubernetes\n\nSi vous n’utilisez pas encore ces technologies, cette présentation vous donnera une bonne idées des avantages qu’elles apportent aux développeurs, administrateurs systèmes, et donc aux utilisateurs; et je suis certain que vous les adopterez rapidement pour vos prochains développements!\n",
       "language": "French",
-      "tags": [],
+      "tags": ["Architecture & Paradigme"],
       "speakers": [
         "bX6pDW3oCgV4bXcI7THJXU0KNWs2"
       ],
