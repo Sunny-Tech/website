@@ -309,8 +309,8 @@
           },{
             "items" : [ ]
           } ],
-          "startTime" : "17:10",
-          "endTime" : "17:30"
+          "startTime" : "17:15",
+          "endTime" : "17:35"
         }
 
       ,{
@@ -325,8 +325,8 @@
           },{
             "items" : [ ]
           } ],
-          "startTime" : "17:40",
-          "endTime" : "18:00"
+          "startTime" : "17:45",
+          "endTime" : "18:05"
         },{
           "sessions" : [ {
             "items" : [ 102 ]
@@ -442,8 +442,8 @@
         "sessions" : [ {
           "items" : [ 101 ]
         } ],
-        "startTime" : "17:10",
-        "endTime" : "18:00"
+        "startTime" : "17:15",
+        "endTime" : "18:05"
       }],
       "tracks" : [ {
         "title" : "Amphi D"
@@ -796,7 +796,7 @@
     "20": {
       "title": "L'éthique dans l'agriculture numérique",
       "complexity": "beginner",
-      "description": "L'éthique dans l'agriculture numérique (quickie - 20min)\n\nMettre au coeur de la conception d'une nouvelle application agricole l'éthique. \n\nComment grâce à l'UX & l'UI design nous avons pu proposer une application plus responsable de l'environnement. Qui permet d'embarquer les agriculteurs dans une autre expérience métier.\n\nDétail :\nPrésentation de la structure / \nContexte & vocabulaires techniques (pour la bonne compréhension de la suite) / \n3 exemples concrets  de design éthique / \nRetours des tests - utilisations / \nOptimisation / \nEt la suite ? / \nConclusion du talk.\n\nPour plus de détail (support de présentation) // EN COURS DE CONSTRUCTION-REDACTION)\nhttps://drive.google.com/open?id=1OlSwrzzrl0elPvqzCou_k9Pdo0uI8Frz\n//Détail des slides dans les commentaires\n",
+      "description": "L'éthique dans l'agriculture numérique (quickie - 20min)\n\nMettre au coeur de la conception d'une nouvelle application agricole l'éthique. \n\nComment grâce à l'UX & l'UI design nous avons pu proposer une application plus responsable de l'environnement. Qui permet d'embarquer les agriculteurs dans une autre expérience métier.\n\nDétail :\nPrésentation de la structure / \nContexte & vocabulaires techniques (pour la bonne compréhension de la suite) / \n3 exemples concrets  de design éthique / \nRetours des tests - utilisations / \nOptimisation / \nEt la suite ? / \nConclusion du talk.",
       "language": "French",
       "tags": [
         "Design"
@@ -1593,7 +1593,7 @@
       "companyLogoUrl": "/images/logos/ca.png",
       "country": "Paris",
       "name": "Marie Petit",
-      "photoUrl": "https://lh4.googleusercontent.com/-UWIjvUDIYaU/AAAAAAAAAAI/AAAAAAAAAAA/RSgu9csWvZI/photo.jpg",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQE76G7TCQgBFw/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=GSZpFqd2Z2_tT2MblxNnQcOWCc25EsGrjJWD46OR7Ts",
       "socials": [{
         "link": "https://twitter.com/@aglaee",
         "icon": "twitter",
@@ -2000,7 +2000,7 @@
       "companyLogoUrl": "/images/logos/adagio-labs.png",
       "country": "Montpellier",
       "name": "Nicolas Duforet",
-      "photoUrl": "https://lh4.googleusercontent.com/-Yz1-XLgNHXI/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPj1_GvBQa91xLaUlSqz5v2f_gdDw/mo/photo.jpg",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQH4r-mI2i5tVg/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=fBb3S-Rdpj0iR2nFkPdribYE534LM4H4SVZdKqvERvI",
       "socials": [{
         "link": "https://twitter.com/NDuforet",
         "icon": "twitter",
