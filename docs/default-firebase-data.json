@@ -219,8 +219,14 @@
   "schedule": {
 
     "2019-06-27" : {
-      "dateReadable" : "27 juin",
+      "dateReadable" : "jeudi 27 juin",
       "timeslots" : [ {
+        "sessions" : [ {
+          "items" : [ 100 ]
+        } ],
+        "startTime" : "09:00",
+        "endTime" : "9:50"
+      },{
         "sessions" : [ {
           "items" : [ 45 ]
         },{
@@ -241,7 +247,7 @@
         },{
           "items" : [ 13 ]
         },{
-          "items" : [  ]
+          "items" : [ 57 ]
         },{
           "items" : [ 21 ]
         } ],
@@ -321,6 +327,12 @@
           } ],
           "startTime" : "17:40",
           "endTime" : "18:00"
+        },{
+          "sessions" : [ {
+            "items" : [ 102 ]
+          } ],
+          "startTime" : "19:00",
+          "endTime" : "22:00"
         }
 
       ],
@@ -337,7 +349,7 @@
       } ]
     },
     "2019-06-28" : {
-      "dateReadable" : "28 juin",
+      "dateReadable" : "vendredi 28 juin",
       "timeslots" : [ {
         "sessions" : [ {
           "items" : [  ]
@@ -426,6 +438,12 @@
         } ],
         "startTime" : "16:10",
         "endTime" : "17:00"
+      },{
+        "sessions" : [ {
+          "items" : [ 101 ]
+        } ],
+        "startTime" : "17:10",
+        "endTime" : "18:00"
       }],
       "tracks" : [ {
         "title" : "Amphi D"
@@ -1366,8 +1384,73 @@
       "videoId": null,
       "image": null,
       "icon": null
+    },
+    "57":{
+            "title": "Una-Gitlab",
+            "complexity": "intermediate",
+            "description": "A l'image de Perceval et Karadock, Logan et Kevin reviennent d'une quête dans la contrée de Gitlab et vont vous compter leurs aventures pleines de découvertes et de rebondissements. L'on espère que Père Blaise réussira à prendre des notes…\n\n![](https://i.pinimg.com/originals/60/4d/7c/604d7c710db34555e2e44e6508c66b27.jpg)\n\nLors de cette quête, il a été nécessaire de mettre en place une intégration continue pour une armée de développeurs sanguinaires qui avaient plein de besoins tout bizarres… Et à la force de leur épée, de leur courage et pas du tout de l'aide de Merlin (qui sait toujours rien faire…), Logan et Kevin ont mis à disposition une CI complète avec job, stage, intégration avec des outils externes (PostgreSQL, Artifactory, Google Cloud Platform…) tout en la gardant simple et versionnable.\n\nIls finiront même par la présentation d'un récent sortilège qui permet d'envoyer leur CI dans le Cloud de Google avec Kubernetes. Cela donne une solution hautement scalable et performante, à la demande avec Google Kubernetes Engine afin de vous présenter une solution scallable et automatique !",
+            "language": "French",
+            "tags": [
+                "Devops & Cloud"
+            ],
+            "speakers": [
+                "rDKV0gUOk0O4WU9tpknPAngMF9A3",
+                "4ik1uitpI4UlyflNSsF3IqoMCi53"
+            ],
+            "presentation": null,
+            "videoId": null,
+            "image": null,
+            "icon": null
+        },
+    "100": {
+      "title": "Keynote d'ouverture",
+      "complexity": "",
+      "description": "",
+      "language": "French",
+      "tags": [
+      ],
+      "speakers": [],
+      "presentation": null,
+      "videoId": null,
+      "image": null,
+      "icon": null
+    },
+    "101": {
+      "title": "Keynote de fermeture",
+      "complexity": "",
+      "description": "",
+      "language": "French",
+      "tags": [
+      ],
+      "speakers": [],
+      "presentation": null,
+      "videoId": null,
+      "image": null,
+      "icon": null
+    },
+    "102": {
+      "title": "Soirée networking",
+      "complexity": "",
+      "description": "",
+      "language": "French",
+      "tags": [
+      ],
+      "speakers": [],
+      "presentation": null,
+      "videoId": null,
+      "image": null,
+      "icon": null
     }
   },
+
+
+
+
+
+
+
+
+
   "speakers": {
     "eMFPF8fp2UTnePLtRCc0XgQddy12": {
       "bio": "Depuis 2013, David Pilato est développeur et évangéliste chez elastic.co, après avoir passé les deux années précédentes à promouvoir le projet open-source Elasticsearch. Il en anime la communauté française et organise des [BBLs](http://brownbaglunch.fr) au sein des entreprises.",
@@ -2587,7 +2670,28 @@
           "name": "Twitter"
         }
       ]
-    }
+    },
+    "4ik1uitpI4UlyflNSsF3IqoMCi53": {
+        "bio": "Proud dad and software automation engineer @airbusgeo. 🌟: Typescript, Angular, Golang, Gitlab, GCP... Also DIY IOT fanatic: Arduino, MQTT, 3D printing.",
+        "shortBio": "Software automation engineer @airbusgeo",
+        "company": "Airbus Defence and Space",
+        "companyLogoUrl": "/images/logos/airbus-defence.png",
+        "country": "Toulouse, France",
+        "name": "Logan Weber",
+        "photoUrl": "https://lh5.googleusercontent.com/-C_sUtM9ZrXg/AAAAAAAAAAI/AAAAAAAAcXA/0yHm3ULHTWw/photo.jpg",
+        "socials": [
+            {
+                "link": "Neonox31",
+                "icon": "github",
+                "name": "GitHub"
+            },
+            {
+                "link": "@Neonox31",
+                "icon": "twitter",
+                "name": "Twitter"
+            }
+        ]
+    },
 
 
 
