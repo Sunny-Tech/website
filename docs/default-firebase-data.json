@@ -1533,7 +1533,7 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
+      "image": "/images/backgrounds/party.jpg",
       "icon": null
     },
     "110": {
@@ -1557,8 +1557,8 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
-      "icon": "coffee-break"
+      "image": "/images/backgrounds/croissant1.jpg",
+      "icon": null
     },
     "112": {
       "title": "Pause chocolatine",
@@ -1569,8 +1569,8 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
-      "icon": "coffee-break"
+      "image": "/images/backgrounds/croissant2.jpg",
+      "icon": null
     },
     "113": {
       "title": "Goûter",
@@ -1581,8 +1581,8 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
-      "icon": "coffee-break"
+      "image": "/images/backgrounds/croissant3.jpg",
+      "icon": null
     },
     "114": {
       "title": "Goûter",
@@ -1593,8 +1593,8 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
-      "icon": "coffee-break"
+      "image": "/images/backgrounds/croissant1.jpg",
+      "icon": null
     },
     "115": {
       "title": "Pause",
@@ -1629,8 +1629,8 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
-      "icon": "lunch"
+      "image": "/images/backgrounds/lunch1.jpg",
+      "icon": null
     },
     "118": {
       "title": "Déjeuner",
@@ -1641,8 +1641,8 @@
       "speakers": [],
       "presentation": null,
       "videoId": null,
-      "image": null,
-      "icon": "lunch"
+      "image": "/images/backgrounds/lunch2.jpg",
+      "icon": null
     },
     "119": {
       "title": "Pause",
