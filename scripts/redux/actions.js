@@ -503,22 +503,22 @@ const becomeSponsorGalleryActions = {
     });
 
     return firebase.firestore().collection('becomeSponsorGallery')
-      .get()
-      .then((snaps) => {
-        const list = snaps.docs
-          .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
+        .get()
+        .then((snaps) => {
+          const list = snaps.docs
+              .map((snap) => Object.assign({}, snap.data(), { id: snap.id }));
 
-        dispatch({
-          type: FETCH_BECOME_SPONSOR_GALLERY_SUCCESS,
-          payload: { list },
+          dispatch({
+            type: FETCH_BECOME_SPONSOR_GALLERY_SUCCESS,
+            payload: { list },
+          });
+        })
+        .catch((error) => {
+          dispatch({
+            type: FETCH_BECOME_SPONSOR_GALLERY_FAILURE,
+            payload: { error },
+          });
         });
-      })
-      .catch((error) => {
-        dispatch({
-          type: FETCH_BECOME_SPONSOR_GALLERY_FAILURE,
-          payload: { error },
-        });
-      });
   },
 };
 

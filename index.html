@@ -99,21 +99,21 @@
       'firebase-messaging',
       'firebase-performance',
     ])
-      .then(() => {
-        firebase.initializeApp({
-          appId: '{$ firebase.appId $}',
-          apiKey: '{$ firebase.apiKey $}',
-          authDomain: '{$ firebase.authDomain $}',
-          databaseURL: '{$ firebase.databaseURL $}',
-          projectId: '{$ firebase.projectId $}',
-          storageBucket: '{$ firebase.storageBucket $}',
-          messagingSenderId: '{$ firebase.messagingSenderId $}',
-        });
-        firebase.performance();
+        .then(() => {
+          firebase.initializeApp({
+            appId: '{$ firebase.appId $}',
+            apiKey: '{$ firebase.apiKey $}',
+            authDomain: '{$ firebase.authDomain $}',
+            databaseURL: '{$ firebase.databaseURL $}',
+            projectId: '{$ firebase.projectId $}',
+            storageBucket: '{$ firebase.storageBucket $}',
+            messagingSenderId: '{$ firebase.messagingSenderId $}',
+          });
+          firebase.performance();
 
-        const firestore = firebase.firestore();
-        firestore.settings({ timestampsInSnapshots: true });
-      });
+          const firestore = firebase.firestore();
+          firestore.settings({ timestampsInSnapshots: true });
+        });
     </script>
     <script>
       // First Input Delay polyfill https://github.com/GoogleChromeLabs/first-input-delay
