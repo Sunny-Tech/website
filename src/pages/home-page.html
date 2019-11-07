@@ -130,6 +130,10 @@ tr<link rel="import" href="../../bower_components/polymer/polymer-element.html">
           font-size: 28px;
           line-height: 1.1;
         }
+
+        .date-bold {
+          font-weight: bold;
+        }
       }
     </style>
 
@@ -146,7 +150,10 @@ tr<link rel="import" href="../../bower_components/polymer/polymer-element.html">
       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
         <div class="info-items highlight-font">
+          <div class="info-item">{$ location.city $}. <span class="date-bold">{$ dates $}</span></div>
           <div class="info-item">{$ heroSettings.home.description $}</div>
+          <br>
+          <div class="info-item date-bold">{$ heroSettings.home.catchingPhrase $}</div>
         </div>
 
 

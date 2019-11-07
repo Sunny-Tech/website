@@ -8,8 +8,8 @@
   "locationRegion": "Occitanie",
   "locationCountry": "France",
   "image": "images/social-share.jpg",
-  "keywords": "sunnytech, évènement, event, montpellier, Sunny, Tech, programming, android, chrome, developers, web, cloud, conférence, seatechandsun, docker, devops, ux, design, back, scala, fonctionnel",  
-  "dates": "27 & 28 juin 2019",
+  "keywords": "sunnytech, évènement, event, montpellier, Sunny, Tech, programming, android, chrome, developers, web, cloud, conférence, seatechandsun, docker, devops, ux, design, back, scala, fonctionnel",
+  "dates": "02-03 juillet 2020",
   "partnershipProposition": "mailto:contact@sunny-tech.io",
   "share": "Partager",
   "followOur": "Suit notre",
@@ -268,33 +268,33 @@
   },
   "callToSchedule": {
     "display": true,
-    "title" :"Appel à orateurs", 
+    "title" :"Appel à orateurs",
     "description": "Intéressé(e) pour parler à Sunny Tech?",
     "description2": "Notre CFP est désormais ouvert",
-    "description3": "Nous avons hâtes de recevoir vos propositions !", 
+    "description3": "Nous avons hâtes de recevoir vos propositions !",
     "action": "Accéder au CFP",
     "url": "https://conference-hall.io/public/event/dWsbvnSTdg5v1pxwKhLM",
     "categories": [
       {
       "title": "Data & Machine Learning",
       "icon":"/images/icons/bubble1.svg"
-      }, 
+      },
       {
       "title": "Devops & Cloud",
       "icon":"/images/icons/bubble2.svg"
-      }, 
+      },
       {
       "title": "Architecture et paradigmes",
       "icon":"/images/icons/bubble3.svg"
-      }, 
+      },
       {
       "title": "Design",
       "icon":"/images/icons/bubble4.svg"
-      }, 
+      },
       {
       "title": "Langages & frameworks",
       "icon":"/images/icons/bubble5.svg"
-      }, 
+      },
       {
       "title": "Random",
       "icon":"/images/icons/bubble6.svg"

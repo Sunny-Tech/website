@@ -35,7 +35,8 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "#SeaTechAndSun ☀️",
+      "description": "#SeaTechAndSun️️",
+      "catchingPhrase": "Commence ton été avec Sunny-Tech️️ ☀",
       "background": {
         "color": "#fb4552",
         "image": "/images/backgrounds/home.jpg"
@@ -108,7 +109,7 @@
   },
   "location": {
     "label": "Localisation",
-    "name": "Faculté d’Education",
+    "name": "Université Sup'Agro",
     "city": "Montpellier",
     "short": "Montpellier",
     "address": "2 place Marcel Godechot, 34090 Montpellier",
@@ -147,7 +148,7 @@
       },
       {
         "name": "linkedin",
-        "nickname":"Sunny Tech Event", 
+        "nickname":"Sunny Tech Event",
         "url":"https://www.linkedin.com/company/sunny-tech-event/"
       }
     ],
