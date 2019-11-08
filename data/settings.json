@@ -112,17 +112,17 @@
     "name": "Université Sup'Agro",
     "city": "Montpellier",
     "short": "Montpellier",
-    "address": "2 place Marcel Godechot, 34090 Montpellier",
+    "address": "2 Place Pierre Viala, 34060 Montpellier",
     "pointer": {
-      "latitude": 43.6202051,
-      "longitude": 3.8675719,
+      "latitude": 43.617763,
+      "longitude": 3.856011,
       "zoom": 14
     },
     "mapCenter": {
-      "latitude": 43.6202051,
-      "longitude": 3.8675719
+      "latitude": 43.617763,
+      "longitude": 3.856011
     },
-    "description": "I.U.F.M"
+    "description": "Sup'Agro"
   },
   "mediaQueries": {
     "xs": {
