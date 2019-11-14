@@ -25,7 +25,7 @@
   "signIn": "Connexion",
   "signOut": "Déconnexion",
   "viewHighlights": "Moments forts 2019",
-  "viewSchedule": "SCHEDULE 2019",
+  "viewSchedule": "SCHEDULE 2020",
   "downloadSchedule": "Télécharger le programme",
   "offlineMessage": "You can still work offline.",
   "cachingComplete": "Caching complete! Future visits will work offline.",
@@ -121,15 +121,15 @@
     "save": "Économisez ${discount}%"
   },
   "partnersBlock": {
-    "title": "Sponsors pour l'édition 2020 :",
-    "button": "Become a partner",
+    "title": "Sponsors pour l'édition 2020",
+    "button": "Devenez sponsor !",
     "form": {
-      "title": "Become a partner!",
-      "submitLabel": "Submit",
-      "fullName": "Full Name",
-      "companyName": "Company Name"
+      "title": "Devenez sponsor !",
+      "submitLabel": "Envoyer",
+      "fullName": "Nom",
+      "companyName": "Entreprise"
     },
-    "toast": "We will contact you soon!"
+    "toast": "On revient vers vous bientôt !"
   },
   "featuredVideos": {
     "title": "DFUA'16 featured videos",
