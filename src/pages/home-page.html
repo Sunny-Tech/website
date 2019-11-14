@@ -169,6 +169,18 @@ tr<link rel="import" href="../../bower_components/polymer/polymer-element.html">
             <iron-icon icon="hoverboard:play"></iron-icon>
             {$ viewHighlights $}
           </paper-button>
+
+          <paper-button
+            on-tap="_scrollToTickets"
+            ga-on="click"
+            ga-event-category="tickets"
+            ga-event-action="scroll"
+            ga-event-label="hero block - scroll to tickets"
+            primary invert
+          >
+            <iron-icon icon="hoverboard:ticket"></iron-icon>
+            {$ buyTicket $}
+          </paper-button>
         </div>
 
         <div class="scroll-down" on-tap="_scrollNextBlock">
@@ -181,6 +193,7 @@ tr<link rel="import" href="../../bower_components/polymer/polymer-element.html">
       </div>
     </hero-block>
     <about-block></about-block>
+    <tickets-block></tickets-block>
     <gallery-block></gallery-block>
     <about-organizer-block></about-organizer-block>
     <partners-block></partners-block>
