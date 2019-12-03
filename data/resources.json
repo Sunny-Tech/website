@@ -20,7 +20,7 @@
   "buyTicket": "Achetez un billet",
   "buyTicketTopRight": "Billetterie",
   "cfpHeader": "Call For Paper",
-  "cfpLink": "https://conference-hall.io/public/event/dWsbvnSTdg5v1pxwKhLM",
+  "cfpLink": "https://conference-hall.io/public/event/g1Yq1ZsPoPUy8R7C8SXc",
   "becomeSponsorMenu": "Devenir sponsor",
   "signIn": "Connexion",
   "signOut": "Déconnexion",
@@ -273,30 +273,30 @@
     "description2": "Notre CFP est désormais ouvert",
     "description3": "Nous avons hâtes de recevoir vos propositions !",
     "action": "Accéder au CFP",
-    "url": "https://conference-hall.io/public/event/dWsbvnSTdg5v1pxwKhLM",
+    "url": "https://conference-hall.io/public/event/g1Yq1ZsPoPUy8R7C8SXc",
     "categories": [
       {
-      "title": "Data & Machine Learning",
+      "title": "Cloud & Devops",
       "icon":"/images/icons/bubble1.svg"
       },
       {
-      "title": "Devops & Cloud",
+      "title": "Data",
       "icon":"/images/icons/bubble2.svg"
       },
       {
-      "title": "Architecture et paradigmes",
+      "title": "Methodologies",
       "icon":"/images/icons/bubble3.svg"
       },
       {
-      "title": "Design",
+      "title": "Developpement",
       "icon":"/images/icons/bubble4.svg"
       },
       {
-      "title": "Langages & frameworks",
+      "title": "Architecture",
       "icon":"/images/icons/bubble5.svg"
       },
       {
-      "title": "Random",
+      "title": "Atypique",
       "icon":"/images/icons/bubble6.svg"
       }
     ]
