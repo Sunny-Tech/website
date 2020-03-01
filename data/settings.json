@@ -31,6 +31,11 @@
       "route": "cod",
       "permalink": "/cod/",
       "label": "Code de conduite"
+    },
+    {
+      "route": "location",
+      "permalink": "/location/",
+      "label": "Lieu"
     }
   ],
   "heroSettings": {
