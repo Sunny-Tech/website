@@ -20,6 +20,24 @@
     "https://firebasestorage.googleapis.com/v0/b/sunny-tech-test.appspot.com/o/gallery-sponsor%2FIMG_1717.jpg?alt=media&token=d42f8de2-8a7b-4f48-85f0-b38967d3571f"
   ],
   "blog": {
+    "covid19": {
+      "backgroundColor": "#888888",
+      "brief": "",
+      "content": "md",
+      "image": "/images/blog/virus-4835301_1920.jpg",
+      "published": "2020-03-14",
+      "source": "/data/posts/2020-03-12-corona.md",
+      "title": "Sunny Tech et le covid19"
+    },
+    "sunny-tech-cancelled": {
+      "backgroundColor": "#888888",
+      "brief": "",
+      "content": "md",
+      "image": "/images/blog/virus-4835301_1920.jpg",
+      "published": "2020-04-17",
+      "source": "/data/posts/2020-04-17-corona-sunny-tech-cancelled.md",
+      "title": "Sunny Tech 2020 est annulé"
+    }
   },
   "notifications": {
     "config": {
@@ -155,9 +173,9 @@
         },{
           "order": 0,
           "height": 100,
-          "logoUrl": "../images/logos/lunchr.svg",
-          "name": "Lunchr",
-          "url": "https://www.lunchr.co/"
+          "logoUrl": "../images/logos/swile.svg",
+          "name": "Swile",
+          "url": "https://www.swile.co/"
         }
       ],
       "order": 2,
@@ -192,6 +210,13 @@
           "logoUrl": "../images/logos/laposte.png",
           "name": "La Poste",
           "url": "https://www.groupelaposte.com/fr/numerique"
+        },
+        {
+          "order": 0,
+          "height": 100,
+          "logoUrl": "../images/logos/sopra-steria.png",
+          "name": "Sopra Steria",
+          "url": "https://www.soprasteria.com/fr"
         }
       ],
       "order": 3,
