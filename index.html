@@ -123,10 +123,6 @@
       firebase.performance();
       firebase
         .firestore()
-        .catch(() => {
-          // eslint-disable-next-line no-console
-          console.warn('DB offline support not available');
-        });
 
       // eslint-disable-next-line no-console
       console.log('Firebase is ready!');
