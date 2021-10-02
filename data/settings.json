@@ -28,8 +28,8 @@
       "label": "Équipe"
     },
     {
-      "route": "cod",
-      "permalink": "/cod/",
+      "route": "coc",
+      "permalink": "/coc/",
       "label": "Code de conduite"
     },
     {
@@ -45,7 +45,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "#SeaTechAndSun️️",
+      "description": "#SeaTechAndSun ☀️️️",
       "cancelledSunnyTech": "Sunny Tech 2021 est annulé",
       "catchingPhrase": "30 juin et 1er juillet 2022 à Montpellier",
       "moreInfo": "Plus d'infos ",
@@ -180,7 +180,6 @@
     "url": "https://sunny-tech.us16.list-manage.com/subscribe/post?u=bc52bec3c758ad9f9e5b5bce7&amp;id=d9ed0e9aab",
     "name": "b_bc52bec3c758ad9f9e5b5bce7_d9ed0e9aab"
   },
-  "mailto": "devfest@gdg.org.ua",
   "signInProviders": {
     "providersData": [
       {

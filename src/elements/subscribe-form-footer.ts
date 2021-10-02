@@ -41,7 +41,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
 
         paper-button {
           margin-top: 8px;
-          color: var(--secondary-text-color);
+          color: #FFFFFF;
         }
 
         paper-button:hover {

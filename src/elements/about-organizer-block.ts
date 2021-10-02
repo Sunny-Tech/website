@@ -71,32 +71,37 @@ export class AboutOrganizerBlock extends ReduxMixin(PolymerElement) {
         </div>
 
         <div class="description-block" flex>
-          {% for block in aboutOrganizerBlock.blocks %}
           <div class="block">
-            <h2>{$ block.title $}</h2>
+            <h2>{$ aboutOrganizerBlock.blocks[0].title $}</h2>
 
-            <marked-element class="description" markdown="{$ block.description $}">
+            <marked-element class="description" markdown="{$ aboutOrganizerBlock.blocks[0].description $}">
               <div slot="markdown-html"></div>
             </marked-element>
-            <a
-              href="{$ block.callToAction.link $}"
-              {%
-              if
-              block.calltoaction.newtab
-              %}
-              target="_blank"
-              rel="noopener noreferrer"
-              {%
-              endif
-              %}
-            >
-              <paper-button class="cta-button animated icon-right">
-                <span>{$ block.callToAction.label $}</span>
-                <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-              </paper-button>
-            </a>
           </div>
-          {% endfor %}
+          <div class="block">
+            <h2>{$ aboutOrganizerBlock.blocks[1].title $}</h2>
+
+            <marked-element class="description" markdown="{$ aboutOrganizerBlock.blocks[1].description $}">
+              <div slot="markdown-html"></div>
+            </marked-element>
+              <a
+                href="{$ aboutOrganizerBlock.blocks[1].callToAction.link $}"
+                {%
+                if
+                aboutOrganizerBlock.blocks[1].calltoaction.newtab
+                %}
+                target="_blank"
+                rel="noopener noreferrer"
+                {%
+                endif
+                %}
+              >
+                <paper-button class="cta-button animated icon-right">
+                  <span>{$ aboutOrganizerBlock.blocks[1].callToAction.label $}</span>
+                  <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+                </paper-button>
+              </a>
+          </div>
         </div>
       </div>
     `;

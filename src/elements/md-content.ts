@@ -38,11 +38,11 @@ export class MdContent extends PolymerElement {
           font-size: 16px;
         }
 
-        [slot='markdown-html'] h2 {
+        [slot="markdown-html"] h2 {
           line-height: 2;
         }
 
-        [slot='markdown-html'] h3::after {
+        [slot="markdown-html"] h3::after {
           margin-left: 8px;
           content: '';
           display: inline-block;
@@ -52,6 +52,13 @@ export class MdContent extends PolymerElement {
           background-size: contain;
           cursor: pointer;
           vertical-align: middle;
+        }
+
+
+        @media (max-width: 640px) {
+          [slot="markdown-html"] h4 {
+            font-weight: 700;
+          }
         }
 
         @media (min-width: 640px) {
@@ -68,7 +75,7 @@ export class MdContent extends PolymerElement {
             margin-right: 0;
           }
 
-          [slot='markdown-html'] h2 {
+          [slot="markdown-html"] h2 {
             font-size: 40px;
             width: 40%;
             margin-bottom: 0;
@@ -78,23 +85,30 @@ export class MdContent extends PolymerElement {
             line-height: 1;
           }
 
-          [slot='markdown-html'] h3 {
+          [slot="markdown-html"] h3 {
             line-height: 1.5;
           }
 
-          [slot='markdown-html'] h3,
-          [slot='markdown-html'] h4,
-          [slot='markdown-html'] p,
-          [slot='markdown-html'] ol,
-          [slot='markdown-html'] ul {
-            margin-left: 40%;
+          [slot="markdown-html"] p,
+          [slot="markdown-html"] ol,
+          [slot="markdown-html"] ul {
+            margin-left: 5%;
           }
 
-          [slot='markdown-html'] h3::after {
+          [slot="markdown-html"] h3 {
+            font-size: 25px;
+          }
+
+          [slot="markdown-html"] h4 {
+            margin-left: 2%;
+            font-size: 20px;
+          }
+
+          [slot="markdown-html"] h3::after {
             display: none;
           }
 
-          [slot='markdown-html'] h3:hover::after {
+          [slot="markdown-html"] h3:hover::after {
             display: inline-block;
           }
         }

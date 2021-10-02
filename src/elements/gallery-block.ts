@@ -34,35 +34,35 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
           background-color: var(--secondary-background-color);
         }
 
-        .grid-item:first-child {
+        .grid-item:nth-child(4) {
           grid-area: 1 / 1 / 3 / 4;
         }
 
-        .grid-item:nth-child(2) {
+        .grid-item:nth-child(5) {
           grid-area: 3 / 1 / 5 / 3;
         }
 
-        .grid-item:nth-child(3) {
+        .grid-item:nth-child(6) {
           grid-area: 3 / 3 / 3 / 3;
         }
 
-        .grid-item:nth-child(4) {
+        .grid-item:nth-child(7) {
           grid-area: 4 / 3 / 4 / 3;
         }
 
-        .grid-item:nth-child(5) {
+        .grid-item:nth-child(8) {
           grid-area: 5 / 1 / 5 / 1;
         }
 
-        .grid-item:nth-child(6) {
+        .grid-item:nth-child(9) {
           display: none;
         }
 
-        .grid-item:nth-child(7) {
+        .grid-item:nth-child(10) {
           display: none;
         }
 
-        .grid-item:nth-child(8) {
+        .grid-item:nth-child(11) {
           display: none;
         }
 
@@ -86,37 +86,37 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
             grid-template-rows: repeat(3, 1fr);
           }
 
-          .grid-item:first-child {
-            grid-area: 1 / 1 / 1 / 3;
-          }
-
-          .grid-item:nth-child(2) {
-            grid-area: 1 / 3 / 2 / 5;
-          }
-
-          .grid-item:nth-child(3) {
-            grid-area: 1 / 5 / 3 / 5;
-          }
-
           .grid-item:nth-child(4) {
-            grid-area: 2 / 1 / 2 / 1;
+            grid-area: 1 / 1 / 1 / 5;
           }
 
           .grid-item:nth-child(5) {
-            grid-area: 2 / 2 / 2 / 2;
+            grid-area: 1 / 3 / 2 / 5;
           }
 
           .grid-item:nth-child(6) {
+            grid-area: 1 / 5 / 3 / 5;
+          }
+
+          .grid-item:nth-child(7) {
+            grid-area: 2 / 1 / 2 / 1;
+          }
+
+          .grid-item:nth-child(8) {
+            grid-area: 2 / 2 / 2 / 2;
+          }
+
+          .grid-item:nth-child(9) {
             grid-area: 3 / 1 / 3 / 3;
             display: block;
           }
 
-          .grid-item:nth-child(7) {
+          .grid-item:nth-child(10) {
             grid-area: 3 / 3 / 3 / 3;
             display: block;
           }
 
-          .grid-item:nth-child(8) {
+          .grid-item:nth-child(11) {
             grid-area: 3 / 4 / 3 / 6;
             display: block;
           }

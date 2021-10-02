@@ -74,7 +74,7 @@ export class FooterSocial extends PolymerElement {
 
       .email {
         margin-bottom: 20px;
-        width: 85px;
+        width: 220px;
       }
 
       .email .title {
@@ -168,17 +168,6 @@ export class FooterSocial extends PolymerElement {
             ga-event-label="twitter">
           </paper-icon-button>
         </div>
-      </div>
-    </div>
-
-    <div class="social-group blog">
-      <div class="title">
-        {$ followOur $}
-        <a
-          href="{$ organizer.blog $}"
-          {% if organizer.blog.startsWith('http') %} target="_blank" rel="noopener noreferrer" {% endif %}>
-          {$ footer.blog $}
-        </a>
       </div>
     </div>
 

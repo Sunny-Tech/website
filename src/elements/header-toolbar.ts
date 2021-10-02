@@ -188,47 +188,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
         </paper-tabs>
 
         <paper-menu-button
-          id="notificationsMenu"
-          class="notifications-menu"
-          vertical-align="top"
-          horizontal-align="right"
-          no-animations
-        >
-          <paper-icon-button
-            icon="hoverboard:[[_getNotificationsIcon(notifications.status)]]"
-            slot="dropdown-trigger"
-          ></paper-icon-button>
-          <div class="dropdown-panel" slot="dropdown-content">
-            <div hidden$="[[_hideNotificationBlock(notifications.status, 'DEFAULT')]]">
-              <p>{$ notifications.default $}</p>
-              <div class="panel-actions" layout horizontal end-justified>
-                <paper-button primary-text on-click="_toggleNotifications"
-                  >{$ notifications.subscribe $}</paper-button
-                >
-              </div>
-            </div>
-            <div hidden$="[[_hideNotificationBlock(notifications.status, 'GRANTED')]]">
-              <p>{$ notifications.enabled $}</p>
-              <div class="panel-actions" layout horizontal end-justified>
-                <paper-button primary-text on-click="_toggleNotifications"
-                  >{$ notifications.unsubscribe $}</paper-button
-                >
-              </div>
-            </div>
-            <div hidden$="[[_hideNotificationBlock(notifications.status, 'DENIED')]]">
-              <p>{$ notifications.blocked $}</p>
-              <div class="panel-actions" layout horizontal end-justified>
-                <a href="{$ notifications.enable.link $}" target="_blank" rel="noopener noreferrer">
-                  <paper-button primary-text on-click="_closeNotificationMenu"
-                    >{$ notifications.enable.label $}
-                  </paper-button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </paper-menu-button>
-
-        <paper-menu-button
           class="auth-menu"
           hidden$="[[!user.signedIn]]"
           vertical-align="top"

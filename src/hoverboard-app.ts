@@ -45,6 +45,7 @@ import { ReduxMixin } from './mixins/redux-mixin';
 import './pages/blog-page';
 import './pages/coc-page';
 import './pages/faq-page';
+import './pages/location-page';
 import './pages/home-page';
 import './pages/previous-speakers-page';
 import './pages/schedule-page';
