@@ -125,8 +125,8 @@
     "save": "Économisez ${discount}%"
   },
   "partnersBlock": {
-    "title": "Sponsors de l'édition 2020",
-    "button": "Devenez sponsor de l'édition 2022 !",
+    "title": "Sponsors de l'édition 2022",
+    "button": "Devenez sponsor !",
     "form": {
       "title": "Devenez sponsor !",
       "submitLabel": "Envoyer",
