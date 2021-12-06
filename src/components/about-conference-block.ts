@@ -12,6 +12,7 @@ export class AboutConferenceBlock extends ThemedElement {
           width: 100%;
           background: var(--tertiary-background-color);
           padding: 16px 0;
+          margin-bottom: -64px;
         }
 
         .container {
