@@ -491,7 +491,7 @@
       "url": "https://www.billetweb.fr/sunny-tech-2022"
     },
     {
-      "available": false,
+      "available": true,
       "currency": "€",
       "ends": "",
       "inDemand": true,
@@ -505,7 +505,7 @@
       "url": "https://www.billetweb.fr/sunny-tech-2022"
     },
     {
-      "available": false,
+      "available": true,
       "currency": "€",
       "ends": "",
       "info": "Requiert une carte étudiante",
