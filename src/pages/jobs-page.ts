@@ -17,6 +17,11 @@ export class BlogPage extends PolymerElement {
           display: block;
         }
 
+        * {
+          --w3d-main-color: #e83002;
+          --w3d-accent-color: #fff;
+        }
+
       </style>
 
       <polymer-helmet
