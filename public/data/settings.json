@@ -2,7 +2,8 @@
   "organizer": {
     "name": "Sunny Tech",
     "twitter": "sunnytech_mtp",
-    "url": "https://sunny-tech.io"
+    "url": "https://sunny-tech.io",
+    "blog": "https://sunny-tech.io/blog/"
   },
   "startDate": "2023-07-29-30T09:00:00+02:00",
   "endDate": "2023-07-30T18:00:00+02:00",
@@ -88,6 +89,8 @@
     },
     "speakers": {
       "title": "Speakers",
+      "description": "Les speakers sans qui il n'y aurait pas de SunnyTech et qui nous parlent de plein de choses !",
+      "metaDescription": "Les speakers sans qui il n'y aurait pas de SunnyTech",
       "background": {
         "color": "#FFF"
       },
@@ -210,6 +213,18 @@
     ]
   },
   "contentLoaders": {
+    "schedule": {
+      "itemsCount": 2
+    },
+    "blog": {
+      "itemsCount": 3
+    },
+    "speakers": {
+      "itemsCount": 4
+    },
+    "previousSpeakers": {
+      "itemsCount": 6
+    },
     "tickets": {
       "itemsCount": 5
     }

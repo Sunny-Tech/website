@@ -109,17 +109,6 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
     `;
   }
 
-<<<<<<< HEAD
-  @property({ type: Object })
-  private viewport = {};
-  @property({ type: Boolean, observer: PartnersBlock.prototype._partnerAddingChanged })
-  private partnerAdding = false;
-  @property({ type: Object })
-  private partnerAddingError: Error;
-
-  @property({ type: Object })
-  partners: PartnersState = initialPartnersState;
-=======
   private loading = loading;
   private partnersBlock = partnersBlock;
 
@@ -127,7 +116,6 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
   potentialPartners = initialPotentialPartnersState;
   @property({ type: Object })
   partners: PartnerGroupsState = new Initialized();
->>>>>>> upstream/main
 
   @computed('partners')
   get pending() {

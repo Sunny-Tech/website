@@ -104,6 +104,7 @@
     "callToAction": {
       "featuredSessions": {
         "description": "Plusieurs conférences et ateliers en parallèle sur 2 journées, sujets transverses allant des outils, méthodologies de conception et développement logiciel jusqu’à la gestion de produit et notamment l’expérience utilisateur.",
+        "label": "Explorer",
         "link": "Voir le programme"
       },
       "howItWas": {

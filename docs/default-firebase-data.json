@@ -1,4 +1,24 @@
 {
+  "config": {
+    "notifications": {
+      "icon": "/images/manifest/icon-192.png",
+      "timezone": "+02:00"
+    },
+    "rendertron": {
+      "server": ""
+    },
+    "site": {
+      "domain": "https://sunny-tech.io"
+    },
+    "schedule": {
+      "enabled": false
+    },
+    "mailchimp": {
+      "dc": "",
+      "listid": "",
+      "apikey": ""
+    }
+  },
   "gallery": [
     "https://firebasestorage.googleapis.com/v0/b/sunnytech-2022.appspot.com/o/1.jpg?alt=media&token=6e923b40-9b34-4800-9893-92c43209a0b2",
     "https://firebasestorage.googleapis.com/v0/b/sunnytech-2022.appspot.com/o/8.jpg?alt=media&token=3f3438a9-33c3-424a-9eb3-8ac2f74c3dbc",
