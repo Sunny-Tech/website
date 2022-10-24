@@ -48,6 +48,7 @@ export {
   title,
   image,
   viewHighlights,
+  locationText,
 } from '../../public/data/resources.json';
 export {
   contentLoaders,
