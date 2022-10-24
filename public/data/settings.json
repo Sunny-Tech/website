@@ -24,16 +24,6 @@
       "label": "Home"
     },
     {
-      "route": "speakers",
-      "permalink": "/speakers",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule",
-      "label": "Schedule"
-    },
-    {
       "route": "team",
       "permalink": "/team/",
       "label": "Équipe"
@@ -52,11 +42,6 @@
       "route": "blog",
       "permalink": "/blog",
       "label": "Blog"
-    },
-    {
-      "route": "jobs",
-      "permalink": "/jobs/",
-      "label": "Jobs"
     }
   ],
   "heroSettings": {
@@ -146,6 +131,7 @@
     },
     "location": {
       "title": "Lieu",
+      "description": "Retrouver les informations sur le lieux de SunnyTech et son plan. ",
       "metaDescription": "Lieu de l'événement",
       "background": {
         "color": "#ffffff"
