@@ -276,25 +276,6 @@
     {
       "members": [
         {
-          "name": "Loïc Talon",
-          "photoUrl": "/images/people/loic_talon.jpg",
-          "photo": "/images/people/loic_talon.jpg",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/loic_talon/",
-              "name": "Twitter"
-            },
-            {
-              "icon": "linkedin",
-              "link": "https://fr.linkedin.com/in/loictalon",
-              "name": "LinkedIn"
-            }
-          ],
-          "title": "",
-          "order": 4
-        },
-        {
           "name": "Estelle Landry",
           "photoUrl": "/images/people/estelle_landry.jpg",
           "photo": "/images/people/estelle_landry.jpg",
@@ -352,20 +333,6 @@
           "order": 5
         },
         {
-          "name": "Benjamin Davy",
-          "photoUrl": "/images/people/benjamin_davy.jpeg",
-          "photo": "/images/people/benjamin_davy.jpeg",
-          "socials": [
-            {
-              "icon": "linkedin",
-              "link": "https://www.linkedin.com/in/benjamin-davy-a52a02b/",
-              "name": "LinkedIn"
-            }
-          ],
-          "title": "",
-          "order": 6
-        },
-        {
           "name": "Armandine Quinot",
           "photoUrl": "/images/people/armandine_quinot.jpg",
           "photo": "/images/people/armandine_quinot.jpg",
@@ -421,25 +388,6 @@
           ],
           "title": "",
           "order": 15
-        },
-        {
-          "name": "Sadri Gora",
-          "photoUrl": "/images/people/sadri_gora.jpg",
-          "photo": "/images/people/sadri_gora.jpg",
-          "socials": [
-            {
-              "icon": "twitter",
-              "link": "https://twitter.com/hellosadri",
-              "name": "Twitter"
-            },
-            {
-              "icon": "linkedin",
-              "link": "https://fr.linkedin.com/in/sadri-gora-360b6a83",
-              "name": "LinkedIn"
-            }
-          ],
-          "title": "",
-          "order": 11
         },
         {
           "name": "Kevin Fischer",
