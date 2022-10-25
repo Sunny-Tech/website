@@ -297,15 +297,6 @@
           "label": "Découvrez l'équipe organisatrice",
           "link": "/team"
         }
-      },
-      {
-        "title": "What is DevFest?",
-        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
-        "callToAction": {
-          "label": "Read more",
-          "link": "https://devfest.withgoogle.com/",
-          "newTab": true
-        }
       }
     ]
   },

@@ -48,6 +48,8 @@ import { website } from './website';
 import { work } from './work';
 import { wtm } from './wtm';
 import { youtube } from './youtube';
+import { feedback } from './feedback'
+import {movie} from './movie'
 
 // prettier-ignore
 const template = html`
@@ -98,10 +100,12 @@ const template = html`
         ${twitter}
         ${up}
         ${video}
+        ${movie}
         ${website}
         ${work}
         ${wtm}
         ${youtube}
+        ${feedback}
       </defs>
     </svg>
   </iron-iconset-svg>

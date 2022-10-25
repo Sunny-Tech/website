@@ -31,15 +31,15 @@ export const theme = css`
     --border-radius: 4px;
     --box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
       0 1px 3px 0 rgb(0 0 0 / 12%);
-    --box-shadow-primary-color: 0 3px 3px -2px rgb(103 58 183 / 30%),
-      0 3px 4px 0 rgb(103 58 183 / 30%), 0 1px 8px 0 rgb(103 58 183 / 30%);
-    --box-shadow-primary-color-hover: 0 1px 3px -2px rgb(103 58 183 / 40%),
-      0 4px 5px 0 rgb(103 58 183 / 40%), 0 2px 9px 0 rgb(103 58 183 / 40%);
+    --box-shadow-primary-color: 0 3px 3px -2px rgb(183, 105, 58 / 30%),
+      0 3px 4px 0 rgb(183, 105, 58 / 30%), 0 1px 8px 0 rgb(183, 105, 58 / 30%);
+    --box-shadow-primary-color-hover: 0 1px 3px -2px rgb(183, 105, 58 / 40%),
+      0 4px 5px 0 rgb(183, 105, 58 / 40%), 0 2px 9px 0 rgb(183, 105, 58 / 40%);
     --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial,
       sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --max-container-width: 1280px;
-    --primary-color-transparent: rgb(103 58 183 / 10%);
-    --primary-color-light: rgb(103 58 183 / 80%);
+    --primary-color-transparent: rgba(183, 105, 58, 0.1);
+    --primary-color-light: rgba(183, 105, 58, 0.8);
     --primary-color-white: #ede7f6;
 
     /* Labels */
