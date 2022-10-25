@@ -39,6 +39,8 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
 
         .logo-item {
           padding: 12px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+          border-radius: 4px;
         }
 
         .logo-img {
