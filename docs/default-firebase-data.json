@@ -578,7 +578,7 @@
       "regular": false,
       "soldOut": true,
       "starts": "",
-      "url": "https://www.billetweb.fr/sunny-tech-2022"
+      "url": "https://www.billetweb.fr/sunny-tech-2023"
     },
     {
       "available": true,
@@ -591,8 +591,8 @@
       "primary": true,
       "regular": true,
       "soldOut": true,
-      "starts": "Il n'y a plus de places pour l'édition 2022",
-      "url": "https://www.billetweb.fr/sunny-tech-2022"
+      "starts": "Il n'y a plus de places pour l'édition 2023",
+      "url": "https://www.billetweb.fr/sunny-tech-2023"
     },
     {
       "available": true,
@@ -603,7 +603,7 @@
       "price": 40,
       "soldOut": true,
       "starts": "31 janvier",
-      "url": "https://www.billetweb.fr/sunny-tech-2022"
+      "url": "https://www.billetweb.fr/sunny-tech-2023"
     }
   ],
   "triggers": {

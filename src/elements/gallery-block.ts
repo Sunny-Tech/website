@@ -89,7 +89,7 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
           }
 
           .grid-item:nth-child(4) {
-            grid-area: 1 / 1 / 1 / 5;
+            grid-area: 1 / 1 / 1 / 3;
           }
 
           .grid-item:nth-child(5) {
