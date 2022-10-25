@@ -1,11 +1,11 @@
-### 1. À lire
+## 1. À lire
 Tous les participants, conférenciers, sponsors et bénévoles de notre conférence doivent accepter le code de conduite suivant. Nous attendons de tous les participants leur coopération afin d’assurer un environnement respectueux et sûr pour tout le monde.
  
-### 2. Besoin d’aide ?
+## 2. Besoin d’aide ?
 
 Durant la conférence, nous invitons toute personne ayant besoin d'aide à contacter de préférence l'équipe d'organisation.
  
-### 3. Version courte du code de bonne conduite
+## 3. Version courte du code de bonne conduite
 
 Sunny Tech est une communauté où l’on prône le partage, l’ouverture, l’originalité et la passion. Nous respectons les différences et la diversité.
 Nous ne tolérons pas le harcèlement sous quelque forme que ce soit des participants et de toutes personnes faisant partie de la conférence indépendamment du sexe, du genre, de l'âge, de  l'orientation sexuelle, du handicap, de l'apparence physique, de la taille du corps,de la race ou encore de la religion (ou son absence).

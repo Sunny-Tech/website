@@ -135,8 +135,8 @@ export class TocMarkdown extends Markdown {
   private get renderToc() {
     return html`
       <div class="content-wrapper">
-        <div class="container"></div>
-          <div class="content" layout justified horizontal wrap>
+        <div class="container">
+          <div class="content" layout justified wrap>
             ${Object.keys(this.headerIds).map((headerId) =>
               this.renderHeader(headerId, this.headerIds[headerId]!)
             )}
