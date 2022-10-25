@@ -44,7 +44,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
 
         paper-button {
           margin-top: 8px;
-          color: var(--secondary-text-color);
+          color: var(--footer-text-color);
         }
 
         paper-button:hover {
@@ -75,7 +75,7 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
             hidden$="[[!subscribed.data]]"
           ></iron-icon>
         </paper-input>
-        <paper-button on-click="subscribe" disabled="[[disabled]]" layout self-end>
+        <paper-button class="cta-button" on-click="subscribe" disabled="[[disabled]]" layout self-end>
           [[ctaLabel]]
         </paper-button>
       </div>
