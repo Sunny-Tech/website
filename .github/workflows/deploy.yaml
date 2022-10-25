@@ -10,15 +10,17 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version-file: .nvmrc
+          cache: 'npm'
       - name: Create temp serviceAccount.json
         run: echo "{}" > serviceAccount.json
       - run: npm ci
       - run: npm run build
-      - uses: w9jds/firebase-action@v2.2.2
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          args: deploy
-        env:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
           # See docs/tutorials/04-deploy.md for configuring these
-          PROJECT_ID: hoverboard-master
-          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOVERBOARD_MASTER }}
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUNNYTECHWEBSITE }}'
+          projectId: sunnytechwebsite
+          # live is the default production channel of Firebase hosting
+          channelId: live
