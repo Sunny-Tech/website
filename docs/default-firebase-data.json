@@ -482,6 +482,77 @@
           ],
           "title": "",
           "order": 19
+        },
+        {
+          "name": "Kalil Pelissier",
+          "photoUrl": "/images/people/kalil-pelissier.jpg",
+          "photo": "/images/people/kalil-pelissier.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/kalilp",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/kalil-pelissier",
+              "name": "GitHub"
+            }
+          ],
+          "title": "",
+          "order": 20
+        },
+        {
+          "name": "Lucas Nouguier",
+          "photoUrl": "/images/people/lucas-nouguier.jpg",
+          "photo": "/images/people/lucas-nouguier.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/lucas-nouguier/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/iusildra/",
+              "name": "GitHub"
+            }
+          ],
+          "title": "",
+          "order": 21
+        },
+        {
+          "name": "Malo Polese",
+          "photoUrl": "/images/people/malo-polese.jpg",
+          "photo": "/images/people/malo-polese.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/malo-polese/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "github",
+              "link": "https://github.com/MaloPolese",
+              "name": "GitHub"
+            }
+          ],
+          "title": "",
+          "order": 22
+        },
+        {
+          "name": "Alexandre Gomoez",
+          "photoUrl": "/images/people/alexandre-gomez.jpg",
+          "photo": "/images/people/alexandre-gomez.jpg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/alexandre-gomez-29573a198/",
+              "name": "LinkedIn"
+            }
+          ],
+          "title": "",
+          "order": 23
         }
       ],
       "title": "Membres"
