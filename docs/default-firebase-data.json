@@ -73,7 +73,7 @@
         {
           "order": 0,
           "height": 60,
-          "logoUrl": "../images/logos/ovh-cloud.png",
+          "logoUrl": "../images/logos/ovhcloud.svg",
           "name": "OVH Cloud",
           "url": "https://www.ovhcloud.com/fr/"
         }
@@ -172,6 +172,13 @@
           "logoUrl": "../images/logos/flint.png",
           "name": "Flint",
           "url": "https://www.flint.sh/fr/home"
+        },
+        {
+          "order": 0,
+          "height": 60,
+          "logoUrl": "../images/logos/codein.png",
+          "name": "Codéin",
+          "url": "https://www.codein.fr/"
         }
       ],
       "order": 2,
@@ -196,9 +203,9 @@
         {
           "order": 0,
           "height": 60,
-          "logoUrl": "../images/logos/codein.png",
-          "name": "Codéin",
-          "url": "https://www.codein.fr/"
+          "logoUrl": "../images/logos/rakuten-xd.png",
+          "name": "Rakuten DX",
+          "url": "https://rakuten-dx.com/"
         }
       ],
       "order": 3,
@@ -212,13 +219,6 @@
           "logoUrl": "../images/logos/klanik.png",
           "name": "Klanik",
           "url": "https://www.klanik.com/"
-        },
-        {
-          "order": 0,
-          "height": 60,
-          "logoUrl": "../images/logos/TODO",
-          "name": "Rakuten XD",
-          "url": "TODO"
         }
       ],
       "order": 4,
@@ -259,7 +259,7 @@
           "height": 100,
           "logoUrl": "../images/logos/lyonjs.webp",
           "name": "LyonJs",
-          "url": "http://lyonjs.org/"
+          "url": "https://lyonjs.org/"
         }
       ],
       "order": 5,
