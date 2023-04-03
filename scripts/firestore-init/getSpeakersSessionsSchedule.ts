@@ -51,11 +51,13 @@ const sync = async (url: string) => {
   const outputSpeakers = speakers.reduce((acc: any, speaker: any) => {
     acc[speaker.id] = {
       bio: speaker.bio,
-      company: speaker.company,
-      companyLogoUrl: speaker.companyLogoUrl,
+      company: speaker.company || "",
+      companyLogoUrl: speaker.companyLogoUrl || "",
       country: speaker.geolocation,
       name: speaker.name,
       photoUrl: speaker.photoUrl,
+      shortBio: speaker?.bio?.slice(0, 100) + "...",
+      title: speaker.jobTitle || "",
       socials: speaker.socials.map((social: {icon: string, name: string, link: string}) => {
         if(social.icon === "twitter") {
           return({
@@ -73,9 +75,7 @@ const sync = async (url: string) => {
         }
 
         return social
-      }),
-      shortBio: speaker?.bio?.slice(0, 100) + "...",
-      title: speaker.jobTitle,
+      })
     }
     return acc
   }, {})
