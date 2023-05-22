@@ -32,6 +32,10 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
           --tracks-number: 6;
         }
 
+        .session {
+          min-width: 0px;
+        }
+
         .start-time {
           margin-top: 16px;
           padding: 8px 16px;
@@ -251,6 +255,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
   private onNameAndSchedule() {
     if (!this.onlyFeatured && this.name && this.schedule instanceof Success) {
       this.day = this.schedule.data.find((day) => day.date === this.name);
+      console.log(this.day);
     }
   }
 }
