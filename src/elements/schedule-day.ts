@@ -175,6 +175,8 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
   @property({ type: Array })
   private selectedFilters: Filter[] = [];
 
+  private isVitrine = false;
+
   onAfterEnter(location: RouterLocation) {
     this.location = location;
   }
@@ -240,7 +242,21 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
       const {
         params: { id },
         pathname,
+        search,
       } = this.location;
+      let params = search
+        .slice(1)
+        .split('&')
+        .reduce((acc: { [k: string]: any }, value) => {
+          const [key, params] = value.split('=');
+          if (key) {
+            acc[key] = params;
+          }
+          return acc;
+        }, {});
+
+      this.isVitrine = params['vitrine'] == 'true' ?? false;
+
       if (pathname.endsWith('my-schedule')) {
         return 'my-schedule';
       } else {
@@ -251,11 +267,53 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
     }
   }
 
-  @observe('name', 'schedule')
+  @observe('name', 'schedule', 'isVitrine')
   private onNameAndSchedule() {
     if (!this.onlyFeatured && this.name && this.schedule instanceof Success) {
-      this.day = this.schedule.data.find((day) => day.date === this.name);
-      console.log(this.day);
+      const data = this.schedule.data.find((day) => day.date === this.name);
+
+      const reduceSessionXPosition = (gridArea: string, step = 1) => {
+        const [gridRowStart, gridColumnStart, gridRowEnd, gridColumnEnd] = gridArea.split(' / ');
+
+        let diff = 0;
+        if (parseInt(gridRowStart as string) !== parseInt(gridRowEnd as string)) {
+          diff = 1;
+        }
+
+        return `${parseInt(gridRowStart as string) - step} / ${gridColumnStart} / ${
+          parseInt(gridRowEnd as string) - (step + diff)
+        } / ${parseInt(gridColumnEnd as string) - 0}`;
+      };
+
+      if (this.isVitrine) {
+        if (data?.timeslots) {
+          let numberOfHideElements = 0;
+
+          // Remove element that are not conference and adapt the gridArea in consequence
+          data.timeslots = data.timeslots.reduce((acc, timeslot) => {
+            const hideSession = (timeslot.sessions[0]?.items[0] as Session).hideTrackTitle;
+
+            if (hideSession) {
+              numberOfHideElements++;
+              return acc;
+            }
+
+            (timeslot.sessions ?? []).forEach((session) => {
+              if (numberOfHideElements > 0) {
+                session.gridArea = reduceSessionXPosition(session.gridArea!!, numberOfHideElements);
+                if (session?.items.length) {
+                  (session?.items[0] as Session).description = '';
+                }
+              }
+            });
+            acc.push(timeslot);
+
+            return acc;
+          }, [] as any);
+          console.log(data.timeslots);
+        }
+      }
+      this.day = data;
     }
   }
 }
