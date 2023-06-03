@@ -31,11 +31,13 @@ export class SchedulePageStandalone extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment">
         :host {
           display: block;
-          height: 100%;
+          height: 100vw;
+          width: 100vw;
+
         }
 
         .container {
-          min-height: 80%;
+          min-height: 100vh;
         }
 
         paper-progress {
