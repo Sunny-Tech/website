@@ -303,7 +303,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
 
       let firstStart = -1;
 
-      const reduceSessionXPosition = (gridArea: string, step = 1, goToNextColumn = false, rowStart= 1) => {
+      const reduceSessionXPosition = (gridArea: string, step = 1, goToNextColumn = false) => {
         const [gridRowStart, gridColumnStart, gridRowEnd, gridColumnEnd] = gridArea.split(' / ');
 
         let diff = 0;
@@ -335,7 +335,6 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
           let numberOfHideElements = 0;
           let numberOfHideElements2 = 0;
           let goToNextColumn = false
-          let rowStart = 0;
 
           // Remove element that are not conference and adapt the gridArea in consequence
           data.timeslots = data.timeslots.reduce((acc, timeslot, index) => {
@@ -349,9 +348,6 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
               return acc;
             }
 
-            if(goToNextColumn && timeslot.sessions[0]?.items[0]) {
-              rowStart ++
-            }
             if(timeslot.startTime === this.splitTimeslotTime && !goToNextColumn) {
               goToNextColumn = true;
               this.firstColumnRowCount = index - numberOfHideElements
@@ -359,7 +355,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
 
             (timeslot.sessions ?? []).forEach((session) => {
               if (numberOfHideElements > 0) {
-                session.gridArea = reduceSessionXPosition(session.gridArea!!, goToNextColumn ? numberOfHideElements2 : numberOfHideElements, goToNextColumn, rowStart);
+                session.gridArea = reduceSessionXPosition(session.gridArea!!, goToNextColumn ? numberOfHideElements2 : numberOfHideElements, goToNextColumn);
                 if (session?.items.length) {
                   (session?.items[0] as Session).description = '';
                 }
