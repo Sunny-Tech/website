@@ -74,7 +74,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
         .vitrine {
           margin: 0;
           padding: 0;
-          max-width: 100vw;
+          width: 100vw;
         }
 
         @media (min-width: 812px) {
@@ -83,6 +83,12 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
             display: block;
             max-width: calc(100% - 64px);
           }
+          .vitrine {
+            margin: 0;
+            padding: 0;
+            max-width: 100vw;
+          }
+
 
           .grid {
             display: grid;
@@ -113,7 +119,6 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <div class="multi-grid">
         <div class$="grid [[additionalClass]]" style$="--tracks-number: [[day.tracks.length]];">
           <template is="dom-repeat" items="[[day.timeslots]]" as="timeslot" index-as="timeslotIndex">
             <div
@@ -161,14 +166,12 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
             </template>
           </template>
         </div>
-      </div>
-
     `;
   }
 
   private mySchedule = mySchedule;
 
-  private splitTimeslotTime = '14:00'
+  private splitTimeslotTime = '15:10'
 
   @property({ type: Object })
   schedule: ScheduleState = initialScheduleState;
@@ -188,6 +191,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
 
   private isVitrine = false;
   private additionalClass = "";
+  private firstColumnRowCount = 0;
 
   onAfterEnter(location: RouterLocation) {
     this.location = location;
@@ -213,8 +217,8 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
       if(parseInt(startTime.split(':')[0]) < parseInt(this.splitTimeslotTime.split(':')[0])) {
         return `${timeslotIndex + 1} / 1`;
       } else {
-        // Move the time slot to the right
-        return `${timeslotIndex + 1} / ${(this.day?.tracks || [1]).length /2  + 2}`;
+        // Move the time slot to the right & top for the other column
+        return `${timeslotIndex - this.firstColumnRowCount +1} / ${(this.day?.tracks || [1]).length /2  + 2}`;
       }
     }
 
@@ -315,9 +319,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
           firstStart = baseGridRowStart;
         }
 
-        console.log(firstStart, baseGridRowStart, rowStart)
-
-        const newGridRowStart = (goToNextColumn ? ((baseGridRowStart - firstStart)) : baseGridRowStart)  - step;
+        const newGridRowStart = (goToNextColumn ? ((baseGridRowStart - firstStart +1 )) : baseGridRowStart)  - step;
         const newGridRowEnd = (goToNextColumn ? (baseGridRowEnd - baseGridRowStart + (newGridRowStart + step)) : baseGridRowEnd) - (step + diff);
 
         const baseGridColumnStart = parseInt(gridColumnStart as string) ;
@@ -335,12 +337,8 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
           let goToNextColumn = false
           let rowStart = 0;
 
-          // TODO :
-          // - adjust timeslot indication and maybe add a column for it
-          // - check callendar fit with original
-
           // Remove element that are not conference and adapt the gridArea in consequence
-          data.timeslots = data.timeslots.reduce((acc, timeslot) => {
+          data.timeslots = data.timeslots.reduce((acc, timeslot, index) => {
             const hideSession = (timeslot.sessions[0]?.items[0] as Session).hideTrackTitle;
 
             if (hideSession) {
@@ -356,7 +354,7 @@ export class ScheduleDay extends ReduxMixin(PolymerElement) {
             }
             if(timeslot.startTime === this.splitTimeslotTime && !goToNextColumn) {
               goToNextColumn = true;
-              console.log("toToNext")
+              this.firstColumnRowCount = index - numberOfHideElements
             }
 
             (timeslot.sessions ?? []).forEach((session) => {

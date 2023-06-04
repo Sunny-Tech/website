@@ -38,6 +38,7 @@ export class SchedulePageStandalone extends ReduxMixin(PolymerElement) {
 
         .container {
           min-height: 100vh;
+          max-width: 100vw;
         }
 
         paper-progress {
