@@ -180,13 +180,19 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 <!--                [[viewHighlights]]-->
 <!--              </paper-button>-->
 <!--            </a>-->
-            <a
+
+            <a href$="[[heroSettings.callToAction.link]]" target="_blank" rel="noopener noreferrer">
+              <paper-button class="buy-button" primary>[[heroSettings.callToAction.label]]</paper-button>
+            </a>
+
+            <!-- <a
               href="/schedule"
             >
               <paper-button  primary>
                 Programme
               </paper-button>
             </a>
+            -->
 <!--            <paper-button on-click="scrollToTickets" primary invert>-->
 <!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
 <!--              [[buyTicket]]-->
