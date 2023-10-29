@@ -72,6 +72,11 @@
       "title": "Voir les éditions antérieures",
       "links": [
         {
+          "name": "Sunny Tech 2023",
+          "url": "https://2023.sunny-tech.io",
+          "newTab": true
+        },
+        {
           "name": "Sunny Tech 2022",
           "url": "https://2022.sunny-tech.io",
           "newTab": true
