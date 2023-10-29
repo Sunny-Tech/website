@@ -22,14 +22,6 @@
       "route": "home",
       "permalink": "/",
       "label": "Home"
-    },{
-      "route": "schedule",
-      "permalink": "/schedule",
-      "label": "Schedule"
-    },{
-      "route": "speakers",
-      "permalink": "/speakers",
-      "label": "Speakers"
     },
     {
       "route": "team",
