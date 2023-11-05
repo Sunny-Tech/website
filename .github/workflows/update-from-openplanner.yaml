@@ -9,16 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: scripts/conference-center-scripts
+        working-directory: scripts/openplanner
     steps:
       - uses: actions/checkout@v3
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
-        with:
-          node-version-file: scripts/conference-center-scripts/.nvmrc
-          cache: 'npm'
-          cache-dependency-path: scripts/conference-center-scripts/package-lock.json
-      - run: npm ci --ignore-scripts
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+      - run: bun install --frozen-lockfile
       - run: npm run import
         env:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUNNYTECHWEBSITE_FIRESTORE }}
