@@ -72,6 +72,23 @@ export const importSchedule = (data: any) => {
   })
 }
 
+export const importTeam = (data: any) => {
+  const docs: { [key: string]: object } = data.team
+  if (!Object.keys(docs).length) {
+    return Promise.resolve()
+  }
+  console.log('Importing team...')
+  const batch = firestore.batch()
+  Object.keys(docs).forEach((docId) => {
+    batch.set(firestore.collection('team/0/members').doc(docId), {
+      ...docs[docId],
+    })
+  })
+  return batch.commit().then(() => {
+    console.log('Imported data for', Object.keys(docs).length, 'days')
+  })
+}
+
 async function deleteCollection(collectionPath: string, batchSize: number = 100) {
   const collectionRef = firestore.collection(collectionPath)
   const query = collectionRef.orderBy('__name__').limit(batchSize)
