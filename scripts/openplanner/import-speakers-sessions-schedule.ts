@@ -18,7 +18,7 @@ const serviceAccount = JSON.parse(process.env.firebaseServiceAccount)
 const url = process.env.payloadUrl
 
 const credential = admin.credential.cert(serviceAccount as ServiceAccount)
-admin.initializeApp({credential})
+admin.initializeApp({ credential })
 const firestore = admin.firestore()
 
 firestore.settings({ ignoreUndefinedProperties: true })
@@ -37,7 +37,7 @@ export const importSpeakers = async (data: any) => {
     })
   })
 
-  let results = await batch.commit()
+  const results = await batch.commit()
   console.log('Imported data for', results.length, 'speakers')
 }
 export const importSessions = async (data: any) => {
@@ -50,7 +50,7 @@ export const importSessions = async (data: any) => {
   Object.keys(docs).forEach((docId) => {
     batch.set(firestore.collection('sessions').doc(docId), docs[docId])
   })
-  let results = await batch.commit()
+  const results = await batch.commit()
   console.log('Imported data for', results.length, 'sessions')
 }
 export const importSchedule = async (data: any) => {

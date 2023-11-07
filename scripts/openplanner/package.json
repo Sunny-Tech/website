@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "import": "bun run import-speakers-sessions-schedule.ts",
-    "testLocally": "bun run testLocally.ts"
+    "import": "ts-node-script import-speakers-sessions-schedule.ts",
+    "testLocally": "ts-node-script testLocally.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase-admin": "^11.11.0"
+    "firebase-admin": "^11.11.0",
+    "ts-node": "^10.9.1"
   }
 }
