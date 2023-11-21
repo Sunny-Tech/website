@@ -13,7 +13,7 @@ const getSocialHandle = (social: string | null) => {
   return social.split('/').pop()
 }
 
-export const getSpeakersSessionsScheduleFromUrl = async (url: string) => {
+export const getSpeakersSessionsScheduleSponsorFromUrl = async (url: string) => {
   const data = await fetch(url + "?tt=2").then(r => r.json())
 
   return await getSpeakersSessionsSchedule(data)
