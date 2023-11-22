@@ -1,6 +1,6 @@
 /* eslint-disable */
 import fsA from 'fs'
-import {Session, Speaker, Event, Track, TeamMember} from './types'
+import {Session, Speaker, Event, Track, TeamMember, Sponsor} from './types'
 
 const fs = fsA.promises
 
@@ -45,8 +45,9 @@ export const getSpeakersSessionsSchedule = async (payload: {
   speakers: Speaker[],
   sessions: Session[],
   team: TeamMember[]
+  sponsors: Sponsor[]
 }): Promise<{}> => {
-  const {event, speakers, sessions, team} = payload
+  const {event, speakers, sessions, team, sponsors} = payload
 
   const tracks: Track[] = event.tracks.map((t: Track, index: number) => ({
     ...t,
@@ -269,7 +270,7 @@ export const getSpeakersSessionsSchedule = async (payload: {
   delete schedule["1"]
 
   // 5. Add team members
-  console.log('Adding team, ' + team.length + ' members')
+  console.log('Find team, ' + team.length + ' members')
   const teamMembers = team.map((member: TeamMember) => {
     return {
       id: member.id,
@@ -279,6 +280,7 @@ export const getSpeakersSessionsSchedule = async (payload: {
       socials: mapPersonSocials(member)
     }
   })
+  console.log('Find sponsors, ' + sponsors.length + ' sponsors')
 
   console.log("Formatting output data done!")
 
@@ -286,7 +288,8 @@ export const getSpeakersSessionsSchedule = async (payload: {
     speakers: outputSpeakers,
     sessions: outputSessions,
     schedule: schedule,
-    team: teamMembers
+    team: teamMembers,
+    sponsors
   }
 
   await fs.writeFile(outputFile, JSON.stringify(fileContent, null, 4))
