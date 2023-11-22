@@ -95,3 +95,14 @@ export interface TeamMember {
   photoUrl: string | null
   socials?: SpeakerSocial[]
 }
+
+export interface Sponsor {
+  id: string
+  name: string
+  sponsors: [{
+    id: string,
+    logoUrl: string,
+    name: string,
+    website: string,
+  }]
+}
