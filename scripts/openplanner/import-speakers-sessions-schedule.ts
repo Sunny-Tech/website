@@ -1,6 +1,6 @@
 // @ts-nocheck
 import admin, {firestore as firestoreDep, ServiceAccount} from 'firebase-admin'
-import {getSpeakersSessionsScheduleFromUrl} from './getSpeakersSessionsSchedule'
+import {getSpeakersSessionsScheduleSponsorFromUrl} from './getSpeakersSessionsSchedule'
 import {TeamMember} from './types'
 
 if (!process.env.firebaseServiceAccount) {
@@ -53,6 +53,48 @@ export const importSessions = async (data: any) => {
   const results = await batch.commit()
   console.log('Imported data for', results.length, 'sessions')
 }
+
+export const importSponsors = async (data: any) => {
+  const sponsors: { [key: string]: object } = data.sponsors
+  if (!Object.keys(sponsors).length) {
+    return Promise.resolve()
+  }
+  console.log('Importing', Object.keys(sponsors).length, 'sponsors...')
+  const batch = firestore.batch()
+
+  Object.keys(sponsors).forEach((sponsorId) => {
+    const sponsor = sponsors[Number(sponsorId)];
+    if (sponsor) {
+      batch.set(firestore.collection('partners').doc(sponsorId), {
+        title: sponsor.name,
+        order: sponsor.order || 0,
+      });
+
+      sponsor.sponsors.forEach((item, id) => {
+        batch.set(
+          firestore
+            .collection('partners')
+            .doc(`${sponsorId}`)
+            .collection('items')
+            .doc(`${id}`.padStart(3, '0')),
+          {
+            height: 60,
+            logoUrl: item.logoUrl,
+            name: item.name,
+            order: item.order || 0,
+            url: item.website,
+          }
+        );
+      });
+    } else {
+      console.warn(`Missing partner ${sponsorId}`);
+    }
+  });
+
+  const results = await batch.commit()
+  console.log('Imported data for', results.length, 'speakers')
+}
+
 export const importSchedule = async (data: any) => {
   const docs: { [key: string]: object } = data.schedule
   if (!Object.keys(docs).length) {
@@ -133,15 +175,17 @@ const cleanupScheduleSessionSpeakers = async () => {
   await deleteCollection('schedule')
   await deleteCollection('sessions')
   await deleteCollection('speakers')
+  await deleteCollection('partners')
   console.log('Cleanup done')
 }
 
-getSpeakersSessionsScheduleFromUrl(url)
+getSpeakersSessionsScheduleSponsorFromUrl(url)
   .then(async (data) => {
     await cleanupScheduleSessionSpeakers()
     await importSessions(data)
     await importSpeakers(data)
     await importSchedule(data)
+    await importSponsors(data)
     return data
   })
   .then(async (data) => {
