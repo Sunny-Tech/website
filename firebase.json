@@ -18,6 +18,18 @@
         "function": "prerender"
       }
     ],
+    "redirects": [
+      {
+        "source": "/sponsoring",
+        "destination": "https://docs.google.com/presentation/d/1AkKtxpy0y74qsyWJAHfkCL6oLu4hhIXS6A2qs2XhHfo/preview",
+        "type": 302
+      },
+      {
+        "source": "/faq",
+        "destination": "https://sunnytech.notion.site/692ef9289bbf4d67a0a4772f1ba32bfb?v=b21ff8dc037b49f2813a3cedeb1af7a9",
+        "type": 302
+      }
+    ],
     "headers": [
       {
         "source": "**",
