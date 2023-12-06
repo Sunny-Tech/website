@@ -56,8 +56,18 @@
       },
       "fontColor": "#FFF",
       "callToAction": {
-        "label": "Photos 2023",
-        "link": "https://photos.app.goo.gl/sfoA93RB1SBML6CY7"
+        "photos": {
+          "label": "Photos 2023",
+          "link": "https://photos.app.goo.gl/sfoA93RB1SBML6CY7"
+        },
+        "cfp": {
+          "label": "CFP 2024",
+          "link": "https://conference-hall.io/public/event/32IQQ5wYijdJdXrqtYsx"
+        },
+        "sponsors": {
+          "label": "Sponsors",
+          "anchor": "#partners-block"
+        }
       }
     },
     "blog": {
@@ -168,8 +178,8 @@
       },
       {
         "name": "linkedin",
-        "nickname":"Sunny Tech Event",
-        "url":"https://www.linkedin.com/company/sunny-tech-event/"
+        "nickname": "Sunny Tech Event",
+        "url": "https://www.linkedin.com/company/sunny-tech-event/"
       }
     ],
     "share": [
