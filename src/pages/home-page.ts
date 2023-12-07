@@ -33,6 +33,7 @@ import {
 import '../utils/icons';
 import { INCLUDE_SITE_TITLE, updateMetadata } from '../utils/metadata';
 import { POSITION, scrollToElement } from '../utils/scrolling';
+import { PartnersBlock } from '../elements/partners-block';
 
 @customElement('home-page')
 export class HomePage extends ReduxMixin(PolymerElement) {
@@ -42,6 +43,21 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         :host {
           display: block;
           height: 100%;
+        }
+
+        .call-to-action {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+        .call-to-action a {
+          flex: 1 0 auto;
+        }
+        .call-to-action a paper-button {
+          min-width: 110px;
+          width: 100%;
+          margin: 0;
         }
 
         hero-block {
@@ -170,20 +186,41 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
+            <!--            <a-->
+            <!--              href="https://www.youtube.com/c/SunnyTechMtp"-->
+            <!--              target="_blank"-->
+            <!--            >-->
+            <!--              <paper-button class="watch-video" on-click="playVideo" primary>-->
+            <!--                <iron-icon icon="hoverboard:movie"></iron-icon>-->
+            <!--                [[viewHighlights]]-->
+            <!--              </paper-button>-->
+            <!--            </a>-->
 
-<!--            <a-->
-<!--              href="https://www.youtube.com/c/SunnyTechMtp"-->
-<!--              target="_blank"-->
-<!--            >-->
-<!--              <paper-button class="watch-video" on-click="playVideo" primary>-->
-<!--                <iron-icon icon="hoverboard:movie"></iron-icon>-->
-<!--                [[viewHighlights]]-->
-<!--              </paper-button>-->
-<!--            </a>-->
-
-            <a href$="[[heroSettings.callToAction.link]]" target="_blank" rel="noopener noreferrer">
-              <paper-button class="buy-button" primary>[[heroSettings.callToAction.label]]</paper-button>
-            </a>
+            <div class="call-to-action">
+              <a
+                href$="[[heroSettings.callToAction.photos.link]]"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <paper-button class="buy-button" primary
+                  >[[heroSettings.callToAction.photos.label]]</paper-button
+                >
+              </a>
+              <a
+                href$="[[heroSettings.callToAction.cfp.link]]"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <paper-button class="buy-button" primary
+                  >[[heroSettings.callToAction.cfp.label]]</paper-button
+                >
+              </a>
+              <a href$="[[heroSettings.callToAction.sponsors.anchor]]">
+                <paper-button class="buy-button" primary on-click="scrollToSponsors"
+                  >[[heroSettings.callToAction.sponsors.label]]</paper-button
+                >
+              </a>
+            </div>
 
             <!-- <a
               href="/schedule"
@@ -193,10 +230,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               </paper-button>
             </a>
             -->
-<!--            <paper-button on-click="scrollToTickets" primary invert>-->
-<!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
-<!--              [[buyTicket]]-->
-<!--            </paper-button>-->
+            <!--            <paper-button on-click="scrollToTickets" primary invert>-->
+            <!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
+            <!--              [[buyTicket]]-->
+            <!--            </paper-button>-->
           </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
@@ -267,15 +304,15 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         <fork-me-block></fork-me-block>
       </template>
       <about-block></about-block>
-<!--      <about-conference-block></about-conference-block>-->
-<!--      <speakers-block></speakers-block>-->
+      <!--      <about-conference-block></about-conference-block>-->
+      <!--      <speakers-block></speakers-block>-->
       <subscribe-block></subscribe-block>
-<!--      <tickets-block id="tickets"></tickets-block>-->
+      <!--      <tickets-block id="tickets"></tickets-block>-->
       <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
-<!--      <featured-videos></featured-videos>-->
-<!--      <latest-posts-block></latest-posts-block>-->
-      <partners-block></partners-block>
+      <!--      <featured-videos></featured-videos>-->
+      <!--      <latest-posts-block></latest-posts-block>-->
+      <partners-block id="partners-block"></partners-block>
       <map-block></map-block>
       <footer-block></footer-block>
     `;
@@ -292,6 +329,9 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   @query('#hero')
   hero!: HeroBlock;
 
+  @query('#partners-block')
+  partnersBlock!: PartnersBlock;
+
   @property({ type: Boolean })
   private showForkMeBlock: boolean = false;
 
@@ -300,6 +340,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       title: this.aboutBlock.callToAction.howItWas.label,
       youtubeId: this.aboutBlock.callToAction.howItWas.youtubeId,
     });
+  }
+
+  private scrollToSponsors() {
+    scrollToElement(this.partnersBlock, POSITION.TOP);
   }
 
   private scrollToTickets() {
