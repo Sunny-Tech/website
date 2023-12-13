@@ -1,5 +1,5 @@
 // @ts-nocheck
-import admin, {firestore as firestoreDep, ServiceAccount} from 'firebase-admin'
+import admin, {ServiceAccount} from 'firebase-admin'
 import {getSpeakersSessionsScheduleSponsorFromUrl} from './getSpeakersSessionsSchedule'
 import {TeamMember} from './types'
 
@@ -137,60 +137,41 @@ export const importTeam = async (team: TeamMember[]) => {
 async function deleteCollection(collectionPath: string, batchSize: number = 100) {
   const collectionRef = firestore.collection(collectionPath)
   const query = collectionRef.orderBy('__name__').limit(batchSize)
-
-  return new Promise((resolve, reject) => {
-    deleteQueryBatch(query, resolve).catch(reject)
-  })
-}
-
-async function deleteQueryBatch(query: firestoreDep.Query, resolve: (value?: any) => any) {
   const snapshot = await query.get()
-
-  const batchSize = snapshot.size
-  if (batchSize === 0) {
-    // When there are no documents left, we are done
-    resolve()
-    return
+  for (const doc of snapshot.docs) {
+    await firestore.recursiveDelete(doc.ref);
   }
-
-  // Delete documents in a batch
-  const batch = firestore.batch()
-  snapshot.docs.forEach((doc: firestoreDep.QueryDocumentSnapshot) => {
-    batch.delete(doc.ref)
-  })
-  await batch.commit()
-
-  // Recurse on the next process tick, to avoid
-  // exploding the stack.
-  process.nextTick(() => {
-    deleteQueryBatch(query, resolve)
-  })
 }
+
 
 const cleanupScheduleSessionSpeakers = async () => {
   console.log('Cleaning up schedule sessions and speakers...')
-  await deleteCollection('generatedSchedule')
-  await deleteCollection('generatedSessions')
-  await deleteCollection('generatedSpeakers')
-  await deleteCollection('schedule')
-  await deleteCollection('sessions')
-  await deleteCollection('speakers')
-  await deleteCollection('partners')
+  await Promise.all([
+    deleteCollection('generatedSchedule'),
+    deleteCollection('generatedSessions'),
+    deleteCollection('generatedSpeakers')
+  ])
+  await Promise.all([
+    deleteCollection('schedule'),
+    deleteCollection('sessions'),
+    deleteCollection('speakers'),
+    deleteCollection('partners'),
+    deleteCollection('team')
+  ])
   console.log('Cleanup done')
 }
 
 getSpeakersSessionsScheduleSponsorFromUrl(url)
   .then(async (data) => {
     await cleanupScheduleSessionSpeakers()
-    await importSessions(data)
-    await importSpeakers(data)
-    await importSchedule(data)
-    await importSponsors(data)
+    await Promise.all([
+      importSessions(data),
+      importSpeakers(data),
+      importSchedule(data),
+      importSponsors(data),
+      importTeam(data.team)
+    ])
     return data
-  })
-  .then(async (data) => {
-    await deleteCollection('team')
-    await importTeam(data.team)
   })
   .then(() => {
     console.log('Finished')
@@ -198,5 +179,5 @@ getSpeakersSessionsScheduleSponsorFromUrl(url)
   })
   .catch((err: Error) => {
     console.log(err)
-    process.exit()
+    process.exit(1)
   })

@@ -99,10 +99,12 @@ export interface TeamMember {
 export interface Sponsor {
   id: string
   name: string
+  order: number
   sponsors: [{
-    id: string,
-    logoUrl: string,
-    name: string,
-    website: string,
+    id: string
+    logoUrl: string
+    name: string
+    website: string
+    order: number
   }]
 }
