@@ -496,36 +496,36 @@
       "inDemand": false,
       "info": "Quantité limitée",
       "name": "Early Bird",
-      "price": 60,
+      "price": 50,
       "regular": false,
       "soldOut": true,
-      "starts": "",
-      "url": "https://www.billetweb.fr/sunny-tech-2023"
+      "starts": "14 déc 10h",
+      "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "€",
       "ends": "",
       "inDemand": true,
       "name": "Regular",
-      "info": "Sold out",
-      "price": 90,
+      "info": "",
+      "price": 80,
       "primary": true,
       "regular": true,
-      "soldOut": true,
-      "starts": "",
-      "url": "https://www.billetweb.fr/sunny-tech-2023"
+      "soldOut": false,
+      "starts": "Disponible l'année prochaine",
+      "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "€",
       "ends": "",
       "info": "Requiert une carte étudiante",
       "name": "Étudiant",
       "price": 40,
-      "soldOut": true,
-      "starts": "",
-      "url": "https://www.billetweb.fr/sunny-tech-2023"
+      "soldOut": false,
+      "starts": "Disponible l'année prochaine",
+      "url": "https://www.billetweb.fr/sunny-tech-2024"
     }
   ],
   "triggers": {

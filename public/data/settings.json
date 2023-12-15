@@ -67,6 +67,10 @@
         "sponsors": {
           "label": "Sponsors",
           "anchor": "#partners-block"
+        },
+        "billet": {
+          "label": "Billet",
+          "anchor": "#tickets"
         }
       }
     },

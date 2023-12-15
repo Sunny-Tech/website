@@ -198,15 +198,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
 
             <div class="call-to-action">
               <a
-                href$="[[heroSettings.callToAction.photos.link]]"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <paper-button class="buy-button" primary
-                  >[[heroSettings.callToAction.photos.label]]</paper-button
-                >
-              </a>
-              <a
                 href$="[[heroSettings.callToAction.cfp.link]]"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -230,10 +221,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
               </paper-button>
             </a>
             -->
-            <!--            <paper-button on-click="scrollToTickets" primary invert>-->
-            <!--              <iron-icon icon="hoverboard:ticket"></iron-icon>-->
-            <!--              [[buyTicket]]-->
-            <!--            </paper-button>-->
           </div>
 
           <div class="scroll-down" on-click="scrollNextBlock">
@@ -307,7 +294,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <!--      <about-conference-block></about-conference-block>-->
       <!--      <speakers-block></speakers-block>-->
       <subscribe-block></subscribe-block>
-      <!--      <tickets-block id="tickets"></tickets-block>-->
+      <tickets-block id="tickets"></tickets-block>
       <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
       <!--      <featured-videos></featured-videos>-->
