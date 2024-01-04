@@ -513,7 +513,7 @@
       "primary": true,
       "regular": true,
       "soldOut": false,
-      "starts": "Disponible l'année prochaine",
+      "starts": "Bientôt disponible",
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
@@ -524,7 +524,7 @@
       "name": "Étudiant",
       "price": 40,
       "soldOut": false,
-      "starts": "Disponible l'année prochaine",
+      "starts": "Bientôt disponible",
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     }
   ],
