@@ -503,7 +503,7 @@
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
-      "available": false,
+      "available": true,
       "currency": "€",
       "ends": "",
       "inDemand": true,
@@ -513,18 +513,18 @@
       "primary": true,
       "regular": true,
       "soldOut": false,
-      "starts": "Bientôt disponible",
+      "starts": "1 Fév 10h",
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
-      "available": false,
+      "available": true,
       "currency": "€",
       "ends": "",
       "info": "Requiert une carte étudiante",
       "name": "Étudiant",
       "price": 40,
       "soldOut": false,
-      "starts": "Bientôt disponible",
+      "starts": "1 Fév 10h",
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     }
   ],
