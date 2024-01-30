@@ -39,7 +39,8 @@ import {
   signInProviders,
   title,
   cfpHeader,
-  cfpLink
+  cfpLink,
+  faqLink,
 } from './utils/data';
 import './utils/icons';
 import './utils/media-query';
@@ -172,29 +173,29 @@ export class HoverboardApp extends PolymerElement {
                   [[nav.label]]
                 </a>
               </template>
+              <a href="[[ faqLink ]]" target="_blank" rel="noopener noreferrer"> FAQ </a>
             </iron-selector>
 
             <div>
               <app-install></app-install>
 
-<!--              <a-->
-<!--                class="bottom-drawer-link"-->
-<!--                href$="[[ticketUrl]]"-->
-<!--                target="_blank"-->
-<!--                rel="noopener noreferrer"-->
-<!--                on-click="closeDrawer"-->
-<!--                layout-->
-<!--                horizontal-->
-<!--                center-->
-<!--              >-->
-<!--                <span>[[buyTicket]]</span>-->
-<!--                <iron-icon icon="hoverboard:open-in-new" primary></iron-icon>-->
-<!--              </a>-->
+              <!--              <a-->
+              <!--                class="bottom-drawer-link"-->
+              <!--                href$="[[ticketUrl]]"-->
+              <!--                target="_blank"-->
+              <!--                rel="noopener noreferrer"-->
+              <!--                on-click="closeDrawer"-->
+              <!--                layout-->
+              <!--                horizontal-->
+              <!--                center-->
+              <!--              >-->
+              <!--                <span>[[buyTicket]]</span>-->
+              <!--                <iron-icon icon="hoverboard:open-in-new" primary></iron-icon>-->
+              <!--              </a>-->
 
-<!--              <a href="[[ cfpLink ]]" target="_blank" rel="noopener noreferrer" on-tap="closeDrawer">-->
-<!--                <paper-button class="buy-button" >[[ cfpHeader ]]</paper-button>-->
-<!--              </a>-->
-
+              <!--              <a href="[[ cfpLink ]]" target="_blank" rel="noopener noreferrer" on-tap="closeDrawer">-->
+              <!--                <paper-button class="buy-button" >[[ cfpHeader ]]</paper-button>-->
+              <!--              </a>-->
             </div>
           </div>
         </app-drawer>
@@ -224,6 +225,7 @@ export class HoverboardApp extends PolymerElement {
   private shortLocation = location.short;
   private cfpLink = cfpLink;
   private cfpHeader = cfpHeader;
+  private faqLink = faqLink;
 
   @query('#drawer')
   drawer!: AppDrawerElement;
@@ -248,7 +250,7 @@ export class HoverboardApp extends PolymerElement {
   stateChanged(state: RootState) {
     this.tickets = state.tickets;
     this.routeName = selectRouteName(window.location.pathname);
-    if(window.location.pathname.includes('/carapuce')){
+    if (window.location.pathname.includes('/carapuce')) {
       this.noLayoutPage = true;
     }
   }

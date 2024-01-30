@@ -21,6 +21,7 @@
   "buyTicketTopRight": "Billetterie",
   "cfpHeader": "Call For Paper",
   "cfpLink": "https://conference-hall.io/public/event/Jnevkv3bLyxZOyYyiWSC",
+  "faqLink": "https://sunny-tech.io/faq",
   "becomeSponsorMenu": "Devenir sponsor",
   "signIn": "Connexion",
   "signOut": "Déconnexion",
@@ -255,7 +256,7 @@
       "label": "Voir tous les speakers",
       "link": "/speakers/"
     }
-},
+  },
   "speakerDetails": {
     "sessions": "Sessions"
   },
@@ -316,7 +317,7 @@
   },
   "callToSchedule": {
     "display": true,
-    "title" :"Appel à orateurs",
+    "title": "Appel à orateurs",
     "description": "Intéressé(e) pour parler à Sunny Tech ?",
     "description2": "Notre CFP est désormais ouvert",
     "description3": "Nous avons hâte de recevoir vos propositions !",
@@ -324,36 +325,36 @@
     "url": "https://conference-hall.io/public/event/Jnevkv3bLyxZOyYyiWSC",
     "categories": [
       {
-      "title": "Cloud & Devops",
-      "icon":"/images/icons/bubble1.svg"
+        "title": "Cloud & Devops",
+        "icon": "/images/icons/bubble1.svg"
       },
       {
-      "title": "BigData & IA",
-      "icon":"/images/icons/bubble2.svg"
+        "title": "BigData & IA",
+        "icon": "/images/icons/bubble2.svg"
       },
       {
-      "title": "Architecture",
-      "icon":"/images/icons/bubble3.svg"
+        "title": "Architecture",
+        "icon": "/images/icons/bubble3.svg"
       },
       {
-      "title": "Mobile / IoT",
-      "icon":"/images/icons/bubble4.svg"
+        "title": "Mobile / IoT",
+        "icon": "/images/icons/bubble4.svg"
       },
       {
-      "title": "Atypique",
-      "icon":"/images/icons/bubble4.svg"
+        "title": "Atypique",
+        "icon": "/images/icons/bubble4.svg"
       },
       {
-      "title": "Frontend",
-      "icon":"/images/icons/bubble5.svg"
+        "title": "Frontend",
+        "icon": "/images/icons/bubble5.svg"
       },
       {
-      "title": "Conception",
-      "icon":"/images/icons/bubble6.svg"
+        "title": "Conception",
+        "icon": "/images/icons/bubble6.svg"
       },
       {
-      "title": "Sécurité",
-      "icon":"/images/icons/bubble1.svg"
+        "title": "Sécurité",
+        "icon": "/images/icons/bubble1.svg"
       }
     ]
   },
