@@ -17,7 +17,16 @@ import { ReduxMixin } from '../store/mixin';
 import { initialTicketsState, TicketsState } from '../store/tickets/state';
 import { initialUiState } from '../store/ui/state';
 import { initialUserState } from '../store/user/state';
-import { buyTicket, navigation, signIn, signOut as signOutText, title, cfpHeader, cfpLink } from '../utils/data';
+import {
+  buyTicket,
+  navigation,
+  signIn,
+  signOut as signOutText,
+  title,
+  cfpHeader,
+  cfpLink,
+  faqLink,
+} from '../utils/data';
 import './notification-toggle';
 import './shared-styles';
 
@@ -75,7 +84,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
         }
 
         .nav-item a,
-        .signin-tab {
+        .signin-tab,
+        .faq-link {
           padding: 0 14px;
           color: inherit;
           text-transform: uppercase;
@@ -177,18 +187,29 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
               <a href="[[nav.permalink]]" layout vertical center-center>[[nav.label]]</a>
             </paper-tab>
           </template>
+          <a
+            href="[[faqLink]]"
+            target="_blank"
+            rel="noopener noreferrer"
+            layout
+            vertical
+            center-center
+            class="faq-link"
+          >
+            FAQ
+          </a>
 
-<!--          <paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">-->
-<!--            [[signInText]]-->
-<!--          </paper-tab>-->
+          <!--          <paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">-->
+          <!--            [[signInText]]-->
+          <!--          </paper-tab>-->
 
-<!--          <a href="[[ cfpLink ]]" target="_blank" rel="noopener noreferrer">-->
-<!--            <paper-button class="buy-button" secondary>[[cfpHeader]]</paper-button>-->
-<!--          </a>-->
+          <!--          <a href="[[ cfpLink ]]" target="_blank" rel="noopener noreferrer">-->
+          <!--            <paper-button class="buy-button" secondary>[[cfpHeader]]</paper-button>-->
+          <!--          </a>-->
 
-<!--          <a href$="[[ticketUrl]]" target="_blank" rel="noopener noreferrer">-->
-<!--            <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>-->
-<!--          </a>-->
+          <!--          <a href$="[[ticketUrl]]" target="_blank" rel="noopener noreferrer">-->
+          <!--            <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>-->
+          <!--          </a>-->
         </paper-tabs>
 
         <notification-toggle></notification-toggle>
@@ -239,6 +260,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   private buyTicket = buyTicket;
   private cfpHeader = cfpHeader;
   private cfpLink = cfpLink;
+  private faqLink = faqLink;
 
   @property({ type: Boolean, notify: true })
   drawerOpened: boolean = false;

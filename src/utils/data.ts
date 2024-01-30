@@ -52,6 +52,7 @@ export {
   image,
   viewHighlights,
   locationText,
+  faqLink,
 } from '../../public/data/resources.json';
 export {
   contentLoaders,
