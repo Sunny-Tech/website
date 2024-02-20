@@ -503,7 +503,7 @@
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
-      "available": true,
+      "available": false,
       "currency": "€",
       "ends": "",
       "inDemand": true,
@@ -513,7 +513,7 @@
       "primary": true,
       "regular": true,
       "soldOut": false,
-      "starts": "1 Fév 10h",
+      "starts": "~3 avril 10h",
       "url": "https://www.billetweb.fr/sunny-tech-2024"
     },
     {
