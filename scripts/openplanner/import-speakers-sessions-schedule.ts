@@ -104,7 +104,7 @@ export const importSchedule = async (data: any) => {
     console.log('Importing schedule...', Object.keys(docs).length)
     const batch = firestore.batch()
     Object.keys(docs).forEach((docId) => {
-      console.log("docId", docId)
+      console.log("...schedule ", docId)
       batch.set(firestore.collection('schedule').doc(docId), {
         ...docs[docId],
         date: docId,
