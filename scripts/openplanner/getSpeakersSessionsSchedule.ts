@@ -262,7 +262,7 @@ export const getSpeakersSessionsSchedule = async (payload: {
   console.log('Merging sessions')
   const dateFormat = {weekday: 'long', month: 'long', day: 'numeric'}
   Object.keys(groupedSessionsByHour).forEach(day => {
-    schedule[day] = {
+    schedule[(day || "??")] = {
       date: day,
       // @ts-ignore
       dateReadable: new Date(Date.parse(day)).toLocaleDateString('fr-FR', dateFormat),
