@@ -165,6 +165,10 @@ export const getSpeakersSessionsSchedule = async (payload: {
   const groupedSessionsByHour = Object.entries(groupedSessions).reduce((acc: any, [day, talks]: any) => {
     const groupedByHour = talks.reduce((acc: any, talk: any) => {
       try {
+        if(!talk.dateStart || !talk.dateEnd) {
+          console.warn("Missing dateStart or dateEnd for talk", talk)
+          return acc
+        }
         // @ts-ignore
         const startTime = new Date(talk.dateStart).toISOString().split('T')[1].split(':')
         // @ts-ignore
