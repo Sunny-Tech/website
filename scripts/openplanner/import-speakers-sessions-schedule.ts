@@ -96,20 +96,27 @@ export const importSponsors = async (data: any) => {
 }
 
 export const importSchedule = async (data: any) => {
-  const docs: { [key: string]: object } = data.schedule
-  if (!Object.keys(docs).length) {
-    return Promise.resolve()
-  }
-  console.log('Importing schedule...')
-  const batch = firestore.batch()
-  Object.keys(docs).forEach((docId) => {
-    batch.set(firestore.collection('schedule').doc(docId), {
-      ...docs[docId],
-      date: docId,
+  try {
+    const docs: { [key: string]: object } = data.schedule
+    if (!Object.keys(docs).length) {
+      return Promise.resolve()
+    }
+    console.log('Importing schedule...', Object.keys(docs).length)
+    const batch = firestore.batch()
+    Object.keys(docs).forEach((docId) => {
+      console.log("docId", docId)
+      batch.set(firestore.collection('schedule').doc(docId), {
+        ...docs[docId],
+        date: docId,
+      })
     })
-  })
-  await batch.commit()
-  console.log('Imported data for', Object.keys(docs).length, 'days')
+    await batch.commit()
+    console.log('Imported data for', Object.keys(docs).length, 'days')
+  } catch (error) {
+    console.error('Error importing schedule', error);
+
+    throw error
+  }
 }
 
 export const importTeam = async (team: TeamMember[]) => {
