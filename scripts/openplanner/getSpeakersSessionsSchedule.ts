@@ -147,8 +147,8 @@ export const getSpeakersSessionsSchedule = async (payload: {
   console.log('Grouping sessions')
   const groupedSessions = sortedSessions.reduce<Record<string, object[]>>((acc, talk: any) => {
     if (!talk.dateStart) {
-      acc[""] = acc[""] || []
-      acc[""].push(talk)
+      //acc[""] = acc[""] || []
+      //acc[""].push(talk)
       return acc
     }
     const day = new Date(talk.dateStart).toISOString().split('T')[0]
