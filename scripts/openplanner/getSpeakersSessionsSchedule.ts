@@ -139,9 +139,19 @@ export const getSpeakersSessionsSchedule = async (payload: {
   const sortedSessions = Object.values(sessions).sort((a: any, b: any) => {
     const aDate = new Date(a.dateEnd)
     const bDate = new Date(b.dateEnd)
+
+    // check invalid date
+    if (aDate && isNaN(aDate.getTime())) {
+      console.warn("Invalid date", a)
+      return 1
+    }
+    if (bDate && isNaN(bDate.getTime()) ) {
+      console.warn("Invalid date", b)
+      return -1
+    }
+
     return aDate.getTime() - bDate.getTime()
   })
-  console.log(sortedSessions);
 
   // const track = session.track.length ? session.track[0] : "Other"
   // 2. Group by weekday
