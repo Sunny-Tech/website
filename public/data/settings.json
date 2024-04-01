@@ -22,6 +22,14 @@
       "route": "home",
       "permalink": "/",
       "label": "Home"
+    },{
+      "route": "schedule",
+      "permalink": "/schedule",
+      "label": "Schedule"
+    },{
+      "route": "speakers",
+      "permalink": "/speakers",
+      "label": "Speakers"
     },
     {
       "route": "team",
@@ -61,6 +69,10 @@
           "link": "https://photos.app.goo.gl/sfoA93RB1SBML6CY7"
         },
         "cfp": {
+          "label": "CFP 2024",
+          "link": "https://conference-hall.io/public/event/32IQQ5wYijdJdXrqtYsx"
+        },
+        "schedule": {
           "label": "CFP 2024",
           "link": "https://conference-hall.io/public/event/32IQQ5wYijdJdXrqtYsx"
         },

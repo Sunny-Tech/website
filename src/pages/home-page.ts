@@ -197,15 +197,20 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             <!--            </a>-->
 
             <div class="call-to-action">
-              <a
-                href$="[[heroSettings.callToAction.cfp.link]]"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <paper-button class="buy-button" primary
-                  >[[heroSettings.callToAction.cfp.label]]</paper-button
-                >
+              <a href="/schedule" >
+                <paper-button  primary>
+                  Programme
+                </paper-button>
               </a>
+<!--              <a-->
+<!--                href$="[[heroSettings.callToAction.cfp.link]]"-->
+<!--                target="_blank"-->
+<!--                rel="noopener noreferrer"-->
+<!--              >-->
+<!--                <paper-button class="buy-button" primary-->
+<!--                  >[[heroSettings.callToAction.cfp.label]]</paper-button-->
+<!--                >-->
+<!--              </a>-->
               <a href$="[[heroSettings.callToAction.sponsors.anchor]]">
                 <paper-button class="buy-button" primary on-click="scrollToSponsors"
                   >[[heroSettings.callToAction.sponsors.label]]</paper-button
