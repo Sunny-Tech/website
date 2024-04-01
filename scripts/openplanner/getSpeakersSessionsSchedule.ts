@@ -141,6 +141,7 @@ export const getSpeakersSessionsSchedule = async (payload: {
     const bDate = new Date(b.dateEnd)
     return aDate.getTime() - bDate.getTime()
   })
+  console.log(sortedSessions);
 
   // const track = session.track.length ? session.track[0] : "Other"
   // 2. Group by weekday
