@@ -2,6 +2,7 @@
 import admin, {ServiceAccount} from 'firebase-admin'
 import {getSpeakersSessionsScheduleSponsorFromUrl} from './getSpeakersSessionsSchedule'
 import {TeamMember} from './types'
+import { runInParallel } from './runInParallel';
 
 if (!process.env.firebaseServiceAccount) {
   throw new Error("firebaseServiceAccount is not defined")
@@ -145,9 +146,11 @@ async function deleteCollection(collectionPath: string, batchSize: number = 100)
   const collectionRef = firestore.collection(collectionPath)
   const query = collectionRef.orderBy('__name__').limit(batchSize)
   const snapshot = await query.get()
-  for (const doc of snapshot.docs) {
-    await firestore.recursiveDelete(doc.ref);
-  }
+
+  await runInParallel(snapshot.docs, 10, async (doc) => {
+    console.log('Deleting document', doc.ref.path);
+    await firestore.recursiveDelete(doc.ref)
+  })
 }
 
 
@@ -171,13 +174,13 @@ const cleanupScheduleSessionSpeakers = async () => {
 getSpeakersSessionsScheduleSponsorFromUrl(url)
   .then(async (data) => {
     await cleanupScheduleSessionSpeakers()
-    await Promise.all([
-      importSessions(data),
-      importSpeakers(data),
-      importSchedule(data),
-      importSponsors(data),
-      importTeam(data.team)
-    ])
+    // await Promise.all([
+    //   importSessions(data),
+    //   importSpeakers(data),
+    //   importSchedule(data),
+    //   importSponsors(data),
+    //   importTeam(data.team)
+    // ])
     return data
   })
   .then(() => {
