@@ -142,11 +142,11 @@ export const getSpeakersSessionsSchedule = async (payload: {
 
     // check invalid date
     if (aDate && isNaN(aDate.getTime())) {
-      console.warn("Invalid date", a)
+      console.warn("Invalid date", a.id, a.title)
       return 1
     }
     if (bDate && isNaN(bDate.getTime()) ) {
-      console.warn("Invalid date", b)
+      console.warn("Invalid date", b.id, b.title)
       return -1
     }
 

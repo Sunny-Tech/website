@@ -14,7 +14,6 @@ export const runInParallel = async <T, R>(
       while (queue.length > 0) {
         const dataIndex = dataList.length - queue.length;
         const dataEl = queue.shift();
-
         try {
           results[dataIndex] = await runFunction(dataEl);
         } catch (error) {
@@ -31,6 +30,14 @@ export const runInParallel = async <T, R>(
     };
 
     const parallelRequests = Math.min(numberOfParallelRequest, dataList.length);
+    console.log(`Running ${parallelRequests} parallel requests`);
+
+    if(parallelRequests === 0) {
+      resolve([]);
+      console.log('No parallel requests to run');
+      return;
+    }
+
     for (let i = 0; i < parallelRequests; i++) {
       processNext(i).catch(reject);
     }
