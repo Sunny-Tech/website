@@ -50,6 +50,12 @@ const checkForBots = (userAgent) => {
   return userAgent.toLowerCase().search(botList) !== -1;
 };
 
+// Update 02/04/2024 Hugo Gresse: this functions is no longer used. It was used by the hosting on every get of every url
+// only for non-root url (like /schedule or /team). Because it was not needed at all due to rendertron not being used,
+// the firebase.json at the root of the project was updated to always serve index.html for every request.
+// This allows the hosting deploy to not touch the functions deploy at all, and the prerender function to stop the blank
+// page issue when deploying the hosting but not the functions.
+
 // This WILL NOT run for index.html because Exact-match static content is before
 // configured rewrites (see "Hosting Priorities" https://firebase.google.com/docs/hosting/url-redirects-rewrites)
 //
