@@ -259,6 +259,7 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
           [[session.dateReadable]], [[session.startTime]] - [[session.endTime]]
         </h3>
         <h3 class="meta-info" hidden$="[[disabledSchedule]]">Salle : [[session.track.title]]</h3>
+        <h3 class="meta-info" hidden$="[[disabledSchedule]]">Theme : [[session.tags]]</h3>
         <h3 class="meta-info" hidden$="[[!session.complexity]]">
           [[sessionDetails.contentLevel]]: [[session.complexity]]
         </h3>
