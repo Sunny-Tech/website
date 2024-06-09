@@ -397,8 +397,8 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
   @observe('session')
   private onSession() {
     this.acceptingFeedback = this.session !== undefined && acceptingFeedback(this.session);
-    this.openFeedbackLink = this.session ? `https://openfeedback.io/sunnytech2023/${this.session.day}/${this.session.id}?hideHeader=true&forceColorScheme=light` : null;
-    this.openFeedbackLinkDirect = this.session ? `https://openfeedback.io/sunnytech2023/${this.session.day}/${this.session.id}` : null;
+    this.openFeedbackLink = this.session ? `https://openfeedback.io/sunnytech2024/${this.session.day}/${this.session.id}?hideHeader=true&forceColorScheme=light` : null;
+    this.openFeedbackLinkDirect = this.session ? `https://openfeedback.io/sunnytech2024/${this.session.day}/${this.session.id}` : null;
   }
 
   @computed('featuredSessions', 'sessionId')
