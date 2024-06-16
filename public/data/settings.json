@@ -171,7 +171,7 @@
   },
   "location": {
     "label": "Localisation",
-    "name": "Université Sup'Agro",
+    "name": "Institut Agro Montpellier (SupAgro sur TAM / tram)",
     "city": "Montpellier",
     "short": "Montpellier",
     "address": "2 Place Pierre Viala, 34060 Montpellier",
@@ -184,7 +184,7 @@
       "latitude": 43.617763,
       "longitude": 3.856011
     },
-    "description": "Sup'Agro"
+    "description": "Institut Agro Montpellier"
   },
   "socialNetwork": {
     "follow": [
