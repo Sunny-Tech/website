@@ -28,6 +28,7 @@ Un parking **gratuit** est disponible à l'Institut Agro. Il est accessible dire
 ### En vélo
 
 Deux parkings à vélos sont disponibles à l'Institut Agro, indiqués sur le plan par un petit 🚲.
+Pour venir de la gare, le plus sûr est de passer par l'avenue d'Assas via Le Pérou, mais avec les travaux à Observatoire, c'est la galère. Il faut que j'essaie de passer par [Gambetta](https://www.google.fr/maps/dir/Montpellier+Saint-Roch,+Pl.+Auguste+Gibert,+34000+Montpellier/L'Institut+Agro+Montpellier,+Montpellier/@43.611096,3.8614239,15.36z/data=!3m1!5s0x12b6af0add4bc30d:0xfe92f22733b5df18!4m14!4m13!1m5!1m1!1s0x12b6afa406650bbd:0x1766935f25749770!2m2!1d3.8807164!2d43.6047981!1m5!1m1!1s0x12b6aefa666835b1:0x4dfbbf08969c2e2c!2m2!1d3.8548934!2d43.6172873!3e1?entry=ttu).
 
 ### En train
 
