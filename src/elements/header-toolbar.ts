@@ -267,6 +267,36 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           </div>
         </paper-menu-button>
 
+        <paper-menu-button
+          class="auth-menu"
+          hidden$="[[!signedIn]]"
+          vertical-align="top"
+          horizontal-align="right"
+          no-animations
+          layout
+          horizontal
+          center-center
+        >
+          <div
+            class="profile-image"
+            slot="dropdown-trigger"
+            style$="background-image: url('[[user.data.photoURL]]')"
+          ></div>
+          <div class="dropdown-panel profile-details" slot="dropdown-content" layout horizontal>
+            <div
+              class="profile-image"
+              slot="dropdown-trigger"
+              self-center
+              style$="background-image: url('[[user.data.photoURL]]')"
+            ></div>
+            <div layout vertical center-justified>
+              <span class="profile-name">[[user.data.displayName]]</span>
+              <span class="profile-email">[[user.data.email]]</span>
+              <span class="profile-action" role="button" on-click="signOut">[[signOutText]]</span>
+            </div>
+          </div>
+        </paper-menu-button>
+
         <paper-icon-button
           icon="hoverboard:account"
           on-click="signIn"
@@ -351,7 +381,8 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
   }
 
   private isAccountIconHidden(signedIn: boolean, isTabletPlus: boolean) {
-    return signedIn || isTabletPlus;
+    console.log("isAccountIconHidden,", signedIn, isTabletPlus);
+    return signedIn || !isTabletPlus;
   }
 
   @computed('tickets')
