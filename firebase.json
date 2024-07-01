@@ -28,6 +28,11 @@
         "source": "/faq",
         "destination": "https://openplanner.fr/public/event/ML7vHjW9pdzqLgYqaYYf/faq",
         "type": 302
+      },
+      {
+        "source": "/gladia",
+        "destination": "https://openplanner.fr/public/event/ML7vHjW9pdzqLgYqaYYf/transcription",
+        "type": 302
       }
     ],
     "headers": [
