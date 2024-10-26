@@ -1,3 +1,7 @@
+⚠️ Old website from SunnyTech 2018 to 2024
+
+⚠️ New repo for 2025+ website is here: https://github.com/Sunny-Tech/SunnyTechWebsite
+
 # Hoverboard
 
 ![Hoverboard logo](https://user-images.githubusercontent.com/2954281/42683571-55ba6be6-8696-11e8-8ff7-e9acd0db63e8.png)
